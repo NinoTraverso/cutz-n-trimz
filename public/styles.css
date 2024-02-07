@@ -24,6 +24,7 @@ BROWN: #ece4c4
 html,
 body {
   font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
   background-color: #ece4c4;
   /* The following code fixes an isue where screen <516px cause a white space to form on the right-side*/
   height: 100%;
@@ -31,6 +32,10 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+body * {
+  font-weight: 300;
 }
 
 .logoContainer {
@@ -108,6 +113,16 @@ nav {
 
 /* ------------------------------------------------------------- HOME/MAIN PAGE -----------------------------------------*/
 
+.highlightedTextBlue {
+  font-family: "Lobster Two", sans-serif;
+  color: #3c9c9c;
+}
+
+.highlightedTextPink {
+  font-family: "Lobster Two", sans-serif;
+  color: #d69a85;
+}
+
 #mainHomeImageIntro {
   width: 100%;
   height: 100vh;
@@ -121,31 +136,34 @@ nav {
 }
 
 #manBeardContainer {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
 #manBeardContainer img {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
 #introOneContainer {
-  background-color: #f0c0b0;
-  color: white;
+  color: black;
   width: 100%;
+  margin-left: 0;
 }
 
 #introTwoContainer {
-  background-color: #3c9c9c;
-  color: white;
+  color: black;
   width: 100%;
 }
 
 #introThreeContainer {
-  background-color: #f0c0b0;
-  color: white;
+  color: black;
   width: 100%;
+}
+
+.beardGrooming {
+  width: 500px;
+  height: auto;
 }
 
 /* ------------------------------------------------------------- FOOTER -----------------------------------------*/

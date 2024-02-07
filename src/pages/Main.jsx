@@ -25,37 +25,37 @@ function Main() {
 
         <div
           id="introOneContainer"
-          className="d-flex flex-column flex-xl-row mx-5 justify-content-around align-items-center"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2
-            id="introOne"
-            className="d-none d-xl-block mt-5 text-center pt-3 rounded"
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            praesentium rerum suscipit! Unde magnam, sint eos similique hic
-            iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
-            dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
+          <h2 id="introOne" className="text-center mb-4">
+            Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
+            where{" "}
+            <span className="highlightedTextBlue">
+              tradition meets modernity
+            </span>{" "}
+            . Step into our welcoming space and experience the artistry of
+            classic barbering fused with contemporary techniques. Our skilled
+            barbers are dedicated to crafting tailored cuts, precise beard
+            trims, and meticulous grooming services to elevate your look and{" "}
+            <span className="highlightedTextBlue">enhance your confidence</span>
+            . Whether you seek a traditional gentleman's haircut or a trendy new
+            style, our commitment to{" "}
+            <span className="highlightedTextBlue">
+              quality and attention to detail
+            </span>{" "}
+            ensures a memorable and satisfying experience.
           </h2>
           <div
             id="manBeardContainer"
-            className="w-50 w-md-25 h-25 h-md-75 ms-3 me-0 mt-md-0 d-flex justify-content-center align-items-center justify-content-md-center"
+            className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3"
           >
             <img
               src="./Assets/ImagesAndIcons/man-3263509_1920.png"
-              alt="manBeard"
+              rel="haircut"
+              className="manBeard rounded"
+              alt="waitingRoom"
             />
           </div>
-          <h2 id="introOne" className="d-block d-xl-none text-center mt-4 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            praesentium rerum suscipit! Unde magnam, sint eos similique hic
-            iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
-            dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Deleniti distinctio, eligendi est ab
-            voluptatibus dolor natus optio, esse neque autem quidem
-            necessitatibus aliquam possimus tempore consequuntur sit animi
-            voluptatum reiciendis.
-          </h2>
         </div>
         <div
           style={{ width: "100%", height: 100 }}
@@ -64,22 +64,27 @@ function Main() {
         {/*/////////////////////////////////////////////////////////////// BARBER /////////////////////////////////////////////*/}
         <div
           id="introTwoContainer"
-          className="d-flex flex-column flex-xl-row mx-5 mb-5 pb-5 justify-content-around align-items-center mt-4"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <div className="w-50 h-100 mx-3 rounded d-flex justify-content-center">
+          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
               src="./Assets/Shop/beardGrooming.jpg"
-              rel="barbers"
-              className="barberPhoto rounded px-4"
-              alt="pictureOfBarber"
+              rel="haircut"
+              className="beardGrooming rounded"
+              alt="waitingRoom"
             />
           </div>
-          <h2 id="introTwo" className="text-center my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            praesentium rerum suscipit! Unde magnam, sint eos similique hic
-            iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
-            dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
+          <h2 id="introOne" className="text-center mb-4 text-wrap w-75">
+            Our commitment to{" "}
+            <span className="highlightedTextBlue">excellence</span> ensures
+            every visit leaves you feeling confident and satisfied. With a track
+            record of{" "}
+            <span className="highlightedTextBlue">satisfied customers</span> and
+            a dedication to providing{" "}
+            <span className="highlightedTextBlue">exceptional</span> service,
+            your grooming experience is our top priority. Book your appointment
+            today and discover the difference at{" "}
+            <span className="highlightedTextPink">cutzNtrimz</span>.
           </h2>
         </div>
         <div
@@ -317,10 +322,14 @@ function Main() {
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
           <h2 id="introThree" className="text-center mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            praesentium rerum suscipit! Unde magnam, sint eos similique hic
-            iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
-            dolore explicabo. Necessitatibus!
+            Designed for your comfort,{" "}
+            <span className="highlightedTextBlue">relax in our lounge</span>{" "}
+            which offers a cozy retreat where you can enjoy a{" "}
+            <span className="highlightedTextBlue">complimentary beverage</span>{" "}
+            while you wait or after your grooming session. With comfortable
+            seating and a welcoming ambiance, it's the perfect place to{" "}
+            <span className="highlightedTextBlue">recharge</span> before or
+            after your appointment.
           </h2>
           <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img

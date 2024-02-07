@@ -144,6 +144,7 @@ function Footer() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                className="rounded mt-4 mt-lg-0 ms-0 ms-md-2"
               />
             </div>
           </div>
