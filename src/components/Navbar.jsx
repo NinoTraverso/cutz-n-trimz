@@ -139,7 +139,7 @@ function Navbar() {
           <div className="d-flex justify-content-center align-items-center me-5">
             <Link
               to={getHomeLink()}
-              className="text-decoration-none mt-5 mx-3"
+              className="text-decoration-none mt-5 ms-5 me-3"
               style={{ color: "#383233" }}
             >
               <h4>{getPageName("Home")}</h4>
