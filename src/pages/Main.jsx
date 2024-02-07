@@ -5,9 +5,7 @@ function Main() {
     <div>
       <main className="mt-2" style={{ zIndex: 0 }}>
         {/*/////////////////////////////////////////////////////////////// MAIN /////////////////////////////////////////////*/}
-        <br className="d-none d-md-block" />
-        <br className="d-none d-md-block" />
-        <br className="d-none d-md-block" />
+
         <br className="d-none d-md-block" />
         <br className="d-none d-md-block" />
         <br className="d-none d-md-block" />
@@ -17,21 +15,25 @@ function Main() {
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+
+        <div id="mainHomeImageIntro" className="mb-5">
+          <img src="/Assets/Shop/homeMainIntroImage.jpg" alt="barberTools" />
+        </div>
 
         <div className="d-flex flex-column flex-xl-row mx-5 justify-content-around align-items-center">
-          <h1
-            className="d-none d-xl-block mt-5 text-center pt-3"
-            style={{ color: "#000000" }}
+          <h2
+            id="introOne"
+            className="d-none d-xl-block mt-5 text-center pt-3 rounded"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
             dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Deleniti distinctio, eligendi est ab
-            voluptatibus dolor natus optio, esse neque autem quidem
-            necessitatibus aliquam possimus tempore consequuntur sit animi
-            voluptatum reiciendis.
-          </h1>
+            consectetur adipisicing elit.
+          </h2>
           <div
             id="manBeardContainer"
             className="w-50 w-md-25 h-25 h-md-75 ms-3 me-0 mt-md-0 d-flex justify-content-center align-items-center justify-content-md-center"
@@ -41,10 +43,7 @@ function Main() {
               alt="manBeard"
             />
           </div>
-          <h1
-            className="d-block d-xl-none text-center mt-4 mb-4"
-            style={{ color: "#000000" }}
-          >
+          <h2 id="introTwo" className="d-block d-xl-none text-center mt-4 mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
@@ -53,7 +52,7 @@ function Main() {
             voluptatibus dolor natus optio, esse neque autem quidem
             necessitatibus aliquam possimus tempore consequuntur sit animi
             voluptatum reiciendis.
-          </h1>
+          </h2>
         </div>
         <div
           style={{ width: "100%", height: 100 }}
@@ -63,22 +62,19 @@ function Main() {
         <div className="d-flex flex-column flex-xl-row mx-5 mb-5 pb-5 justify-content-around align-items-center mt-4">
           <div className="w-50 h-100 mx-3 rounded d-flex justify-content-center">
             <img
-              src="./Assets/Shop/eugene-chystiakov-taZSJ6xmt48-unsplash.jpg"
+              src="./Assets/Shop/beardGrooming.jpg"
               rel="barbers"
               className="barberPhoto rounded px-4"
               alt="pictureOfBarber"
             />
           </div>
-          <h1 className="text-center my-4" style={{ color: "#000000" }}>
+          <h2 id="introThree" className="text-center my-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
             dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Deleniti distinctio, eligendi est ab
-            voluptatibus dolor natus optio, esse neque autem quidem
-            necessitatibus aliquam possimus tempore consequuntur sit animi
-            voluptatum reiciendis.
-          </h1>
+            consectetur adipisicing elit.
+          </h2>
         </div>
         <div
           style={{ width: "100%", height: 120 }}
@@ -311,15 +307,11 @@ function Main() {
           className="d-none d-xl-block"
         />
         <div className="d-flex flex-column flex-xl-row mx-5 mt-3 justify-content-around align-items-center">
-          <h2 className="text-center mb-4" style={{ color: "#000000" }}>
+          <h2 id="introFour" className="text-center mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
-            dolore explicabo. Necessitatibus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Deleniti distinctio, eligendi est ab
-            voluptatibus dolor natus optio, esse neque autem quidem
-            necessitatibus aliquam possimus tempore consequuntur sit animi
-            voluptatum reiciendis.
+            dolore explicabo. Necessitatibus!
           </h2>
           <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center px-3">
             <img
