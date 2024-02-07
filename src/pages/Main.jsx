@@ -23,7 +23,10 @@ function Main() {
           <img src="/Assets/Shop/homeMainIntroImage.jpg" alt="barberTools" />
         </div>
 
-        <div className="d-flex flex-column flex-xl-row mx-5 justify-content-around align-items-center">
+        <div
+          id="introOneContainer"
+          className="d-flex flex-column flex-xl-row mx-5 justify-content-around align-items-center"
+        >
           <h2
             id="introOne"
             className="d-none d-xl-block mt-5 text-center pt-3 rounded"
@@ -43,7 +46,7 @@ function Main() {
               alt="manBeard"
             />
           </div>
-          <h2 id="introTwo" className="d-block d-xl-none text-center mt-4 mb-4">
+          <h2 id="introOne" className="d-block d-xl-none text-center mt-4 mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
@@ -59,7 +62,10 @@ function Main() {
           className="d-none d-xl-block"
         />
         {/*/////////////////////////////////////////////////////////////// BARBER /////////////////////////////////////////////*/}
-        <div className="d-flex flex-column flex-xl-row mx-5 mb-5 pb-5 justify-content-around align-items-center mt-4">
+        <div
+          id="introTwoContainer"
+          className="d-flex flex-column flex-xl-row mx-5 mb-5 pb-5 justify-content-around align-items-center mt-4"
+        >
           <div className="w-50 h-100 mx-3 rounded d-flex justify-content-center">
             <img
               src="./Assets/Shop/beardGrooming.jpg"
@@ -68,7 +74,7 @@ function Main() {
               alt="pictureOfBarber"
             />
           </div>
-          <h2 id="introThree" className="text-center my-4">
+          <h2 id="introTwo" className="text-center my-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
@@ -306,14 +312,17 @@ function Main() {
           style={{ width: "100%", height: 100 }}
           className="d-none d-xl-block"
         />
-        <div className="d-flex flex-column flex-xl-row mx-5 mt-3 justify-content-around align-items-center">
-          <h2 id="introFour" className="text-center mb-4">
+        <div
+          id="introThreeContainer"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
+        >
+          <h2 id="introThree" className="text-center mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             praesentium rerum suscipit! Unde magnam, sint eos similique hic
             iusto. Unde, a? Voluptatem laboriosam quibusdam eos id dolorum
             dolore explicabo. Necessitatibus!
           </h2>
-          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center px-3">
+          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
               src="./Assets/Shop/sofa-186633_1920.jpg"
               rel="haircut"

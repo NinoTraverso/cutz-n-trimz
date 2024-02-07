@@ -130,20 +130,22 @@ nav {
   height: auto;
 }
 
-#introOne {
-  color: #3c9c9c;
+#introOneContainer {
+  background-color: #f0c0b0;
+  color: white;
+  width: 100%;
 }
 
-#introTwo {
-  color: #3c9c9c;
+#introTwoContainer {
+  background-color: #3c9c9c;
+  color: white;
+  width: 100%;
 }
 
-#introThree {
-  color: #3c9c9c;
-}
-
-#introFour {
-  color: #3c9c9c;
+#introThreeContainer {
+  background-color: #f0c0b0;
+  color: white;
+  width: 100%;
 }
 
 /* ------------------------------------------------------------- FOOTER -----------------------------------------*/
