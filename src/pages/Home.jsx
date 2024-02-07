@@ -46,7 +46,7 @@ function Home() {
           id="introOneContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introOne" className="text-center mb-4">
+          <h2 id="introOne" className="text-center mb-4 ">
             Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
             where{" "}
             <span className="highlightedTextBlue">
@@ -205,7 +205,6 @@ function Home() {
         <br className="d-none d-xl-block" />
         <br className="d-none d-xl-block" />
         <br className="d-none d-xl-block" />
-        <br className="d-none d-xl-block" />
         {/*/////////////////////////////////////////////////////////////// CAROUSEL HAIRCUTS (<MD) /////////////////////////////////////////////*/}
         <div
           id="carouselHaircutsmd"
@@ -329,7 +328,7 @@ function Home() {
         <br className="d-block d-md-none" />
         {/*/////////////////////////////////////////////////////////////// LOUNGE /////////////////////////////////////////////*/}
         <div
-          style={{ width: "100%", height: 200 }}
+          style={{ width: "100%", height: 120 }}
           className="d-none d-xxl-block"
         />
         <div
@@ -340,7 +339,7 @@ function Home() {
           id="introThreeContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introThree" className="text-center mb-4">
+          <h2 id="introThree" className="text-center mb-4 w-75">
             Designed for your comfort,{" "}
             <span className="highlightedTextBlue">relax in our lounge</span>{" "}
             which offers a cozy retreat where you can enjoy a{" "}
