@@ -1,16 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");*/
 /*
 font-family: "Yesteryear", cursive;
-font-family: "Josefin Sans", sans-serif;
+font-family: "Lobster Two", sans-serif;
+font-family: "Open Sans", sans-serif;
+
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /*
 font-family: "Lobster Two", sans-serif;
-font-family: "Open Sans", sans-serif;
+font-family: "Josefin Sans", sans-serif;
+
 */
 
 /*
@@ -19,6 +22,16 @@ font-family: "Open Sans", sans-serif;
 PINK: #f0c0b0
 BLUE: #3c9c9c
 BROWN: #ece4c4
+*/
+
+/* ------------------------------------------- ICON ATTRIBUTION: ---------------------------------------------
+
+HAIR: <a href="https://www.flaticon.com/free-icons/hair" title="hair icons">Hair icons created by DinosoftLabs - Flaticon</a>
+
+BEARD: <a href="https://www.flaticon.com/free-icons/mustaches" title="mustaches icons">Mustaches icons created by Good Ware - Flaticon</a>
+
+BEARDHAIR: <a href="https://www.flaticon.com/free-icons/beard" title="beard icons">Beard icons created by PIXARTIST - Flaticon</a>
+
 */
 
 html,
@@ -121,6 +134,10 @@ nav {
 .highlightedTextPink {
   font-family: "Lobster Two", sans-serif;
   color: #d69a85;
+}
+
+.highlightedText {
+  font-family: "Lobster Two", sans-serif;
 }
 
 #mainHomeImageIntro {

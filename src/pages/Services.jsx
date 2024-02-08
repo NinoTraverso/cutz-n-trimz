@@ -50,33 +50,27 @@ function Services() {
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
+        <div className="d-flex flex-column text-center open-mypage mx-auto">
+          <h1 className="highlightedText">Services</h1>
+          <h3 className="col-6 text-center mx-auto">
+            At <span className="highlightedTextPink">cutzNtrimz</span>, we offer
+            a range of expert grooming services to keep you looking sharp and
+            feeling confident. Our skilled barbers specialize in{" "}
+            <span className="highlightedTextBlue">
+              precision haircuts, beard trims, and hot towel shaves
+            </span>
+            . Whether you're looking for a classic style or a modern twist,
+            we've got you covered. Your satisfaction is our priority.
+          </h3>
+        </div>
         <div
           id="topBorder"
           className="col-12 d-flex justify-content-center align-items-center"
         >
           <img src="./Assets/ImagesAndIcons/border.svg" alt="topBorder" />
         </div>
-        <div className="d-flex flex-column text-center open-mypage mx-auto">
-          <h2>SERVICES</h2>
-          <h5
-            style={{ fontFamily: '"Jost", sans-serif', fontWeight: 300 }}
-            className="col-6 text-center mx-auto"
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus,
-            cumque saepe a dolorum porro! Necessitatibus ut aliquam sunt nam.
-            Omnis, explicabo. Sit, natus dolorum rerum esse sint odit
-            laudantium.
-          </h5>
-        </div>
+
         <div id="servicesList">
-          <div className="d-flex justify-content-center d-block d-xl-none mt-3">
-            <img
-              src="./Assets/Shop/beardGrooming.jpg"
-              alt="beardGroomingImage"
-              style={{ width: 500, height: "auto" }}
-              className="rounded"
-            />
-          </div>
           <div className="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5">
             <div className="gentleman col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
               <h1>Cut</h1>
