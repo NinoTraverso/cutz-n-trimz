@@ -368,81 +368,25 @@ footer * {
 }
 
 /*---------------------------------------------- ABOUT -----------------------------------------------*/
-.razorShape {
+
+#barberImageContainer {
   width: 400px;
   height: 600px;
-  border: 12px solid #0c0c0c00;
-  border-bottom-right-radius: 45%;
-  border-bottom-left-radius: 45%;
-  border-top-right-radius: 15%;
-  border-top-left-radius: 15%;
-  background-image: url("./Assets/Shop/beardGrooming.jpg");
-  background-size: cover;
-  background-position: center bottom;
-  z-index: 1;
 }
 
-.razorBlades {
-  width: 16px;
-  height: 30px;
-  background-color: #171515;
-
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  z-index: 2;
+#barberImageContainer img {
+  width: 400px;
+  height: auto;
 }
 
-.jjContainer {
-  max-width: 600px;
-  max-height: 500px;
+#referenceIcon {
+  width: 160px;
+  height: auto;
 }
 
-.jjContainer img {
-  max-width: 600px;
-  max-height: 500px;
-  object-fit: contain;
-}
-
-.profileContent {
-  opacity: 0;
-  transform: translateY(200%);
-}
-
-@keyframes enhanceText {
-  0% {
-    opacity: 0;
-    transform: translateY(200%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.profileContent {
-  animation: enhanceText 7s ease-out;
-  animation-fill-mode: forwards;
-}
-
-#valuesContent {
-  opacity: 0;
-  transform: translateY(-200%);
-}
-
-@keyframes enhanceValues {
-  0% {
-    opacity: 0;
-    transform: translateY(-200%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-#valuesContent {
-  animation: enhanceValues 7s ease-out;
-  animation-fill-mode: forwards;
+#referenceIcon img {
+  width: 160px;
+  height: auto;
 }
 
 /*-----------------------------------------PRODUCTS---------------------------------------------*/
