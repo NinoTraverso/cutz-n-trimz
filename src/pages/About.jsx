@@ -71,7 +71,6 @@ function About() {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           >
             <source src="/Assets/Shop/beardShave.mp4" type="video/mp4" />
-            {/* Add additional source elements for different video formats if needed */}
             Your browser does not support the video tag.
           </video>
         </div>
@@ -109,7 +108,6 @@ function About() {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           >
             <source src="/Assets/Shop/hairCut.mp4" type="video/mp4" />
-            {/* Add additional source elements for different video formats if needed */}
             Your browser does not support the video tag.
           </video>
         </div>

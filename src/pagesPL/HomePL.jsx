@@ -47,23 +47,27 @@ function HomePL() {
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
           <h2 id="introOne" className="text-center text-wrap mb-4 mx-5">
-            Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
-            where{" "}
+            Witaj w <span className="highlightedTextPink">cutNtrimz</span>,
+            gdzie{" "}
             <span className="highlightedTextBlue">
-              tradition meets modernity
-            </span>{" "}
-            . Step into our welcoming space and experience the artistry of
-            classic barbering fused with contemporary techniques. Our skilled
-            barbers are dedicated to crafting tailored cuts, precise beard
-            trims, and meticulous grooming services to elevate your look and{" "}
-            <span className="highlightedTextBlue">enhance your confidence</span>
-            . Whether you seek a traditional gentleman's haircut or a trendy new
-            style, our commitment to{" "}
+              tradycja spotyka się z nowoczesnością
+            </span>
+            . Wejdź do naszej przyjaznej przestrzeni i doświadcz sztuki
+            klasycznego barbering'u połączonej z nowoczesnymi technikami. Nasi
+            wykwalifikowani fryzjerzy poświęcają się tworzeniu dopasowanych
+            fryzur, precyzyjnych strzyżeń brody i skrupulatnej pielęgnacji, aby
+            podnieść Twój wygląd i{" "}
             <span className="highlightedTextBlue">
-              quality and attention to detail
-            </span>{" "}
-            ensures a memorable and satisfying experience.
+              wzmacniać Twoją pewność siebie
+            </span>
+            . Czy szukasz tradycyjnego fryzjera dla dżentelmenów czy
+            nowoczesnego, modnego stylu, nasze zobowiązanie do{" "}
+            <span className="highlightedTextBlue">
+              jakości i dbałości o detale
+            </span>
+            gwarantuje niezapomniane i satysfakcjonujące doświadczenie.
           </h2>
+
           <div
             id="manBeardContainer"
             className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3"
@@ -94,15 +98,15 @@ function HomePL() {
             />
           </div>
           <h2 id="introOne" className="text-center mb-4 text-wrap mx-5">
-            Our commitment to{" "}
-            <span className="highlightedTextBlue">excellence</span> ensures
-            every visit leaves you feeling confident and satisfied. With a track
-            record of{" "}
-            <span className="highlightedTextBlue">satisfied customers</span> and
-            a dedication to providing{" "}
-            <span className="highlightedTextBlue">exceptional</span> service,
-            your grooming experience is our top priority. Book your appointment
-            today and discover the difference at{" "}
+            Nasze zobowiązanie do{" "}
+            <span className="highlightedTextBlue">doskonałości</span> zapewnia,
+            że każda wizyta sprawia, że ​​czujesz się pewnie i zadowolony.
+            Dzięki historii{" "}
+            <span className="highlightedTextBlue">zadowolonych klientów</span>i
+            oddaniu się świadczeniu{" "}
+            <span className="highlightedTextBlue">wyjątkowej</span> obsługi,
+            Twoje doświadczenie z pielęgnacją jest naszym najwyższym
+            priorytetem. Umów się na wizytę jeszcze dziś i odkryj różnicę w{" "}
             <span className="highlightedTextPink">cutzNtrimz</span>.
           </h2>
         </div>
@@ -339,15 +343,18 @@ function HomePL() {
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
           <h2 id="introThree" className="text-center mb-4 mx-5">
-            Designed for your comfort,{" "}
-            <span className="highlightedTextBlue">relax in our lounge</span>{" "}
-            which offers a cozy retreat where you can enjoy a{" "}
-            <span className="highlightedTextBlue">complimentary beverage</span>{" "}
-            while you wait or after your grooming session. With comfortable
-            seating and a welcoming ambiance, it's the perfect place to{" "}
-            <span className="highlightedTextBlue">recharge</span> before or
-            after your appointment.
+            Zaprojektowany dla Twojego komfortu,{" "}
+            <span className="highlightedTextBlue">
+              zrelaksuj się w naszym salonie
+            </span>
+            , który oferuje przytulne miejsce, gdzie możesz delektować się{" "}
+            <span className="highlightedTextBlue">darmowym napojem</span>
+            podczas oczekiwania lub po sesji pielęgnacji. Z wygodnymi
+            siedzeniami i przyjazną atmosferą, to idealne miejsce na{" "}
+            <span className="highlightedTextBlue">odnowienie sił</span> przed
+            lub po Twojej wizycie.
           </h2>
+
           <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
               src="./Assets/Shop/sofa-186633_1920.jpg"

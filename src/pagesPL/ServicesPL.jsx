@@ -54,16 +54,16 @@ function ServicesPL() {
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
         <div className="d-flex flex-column text-center open-mypage mx-auto">
-          <h1 className="highlightedTextLarge mt-5">Services</h1>
+          <h1 className="highlightedTextLarge mt-5">Usługi</h1>
           <h3 className="col-8 col-md-6 text-center mx-auto">
-            At <span className="highlightedTextPink">cutzNtrimz</span>, we offer
-            a range of expert grooming services to keep you looking sharp and
-            feeling confident. Our skilled barbers specialize in{" "}
+            W <span className="highlightedTextPink">cutzNtrimz</span> oferujemy
+            szereg ekspertowych usług pielęgnacyjnych, abyś wyglądał ostro i
+            czuł się pewnie. Nasi wykwalifikowani fryzjerzy specjalizują się w{" "}
             <span className="highlightedTextBlue">
-              precision haircuts, beard trims, and hot towel shaves
+              precyzyjnych strzyżeniach, przycinaniu brody i gorących goleniach
             </span>
-            . Whether you're looking for a classic style or a modern twist,
-            we've got you covered. Your satisfaction is our priority.
+            . Bez względu na to, czy szukasz klasycznego stylu czy nowoczesnej
+            odmiany, mamy Cię objęte. Twoja satysfakcja jest naszym priorytetem.
           </h3>
         </div>
         <div
@@ -102,9 +102,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Our Classic Cut combines traditional techniques with
-                personalized attention to create a versatile and refined haircut
-                that suits your preferences.
+                Nasz Klasyczny Strzyżenie łączy tradycyjne techniki z
+                indywidualną uwagą, aby stworzyć wszechstronną i wyrafinowaną
+                fryzurę, która odpowiada Twoim preferencjom.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -126,8 +126,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Featuring precision styling and personalized touches for a
-                sophisticated and modern look that sets you apart
+                Oferując precyzyjne stylizacje i spersonalizowane detale dla
+                wyrafinowanego i nowoczesnego wyglądu, który wyróżnia Cię
+                spośród innych.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -149,9 +150,10 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a customized consultation and meticulous attention to
-                detail, resulting in a polished and upscale haircut that leaves
-                you feeling confident and refreshed.
+                Ciesz się spersonalizowaną konsultacją i skrupulatną uwagą na
+                detale, co przynosi efekt w postaci wyrafinowanej i eleganckiej
+                fryzury, która sprawia, że czujesz się pewny siebie i
+                odświeżony.
               </h5>
             </div>
           </div>
@@ -180,9 +182,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Our expert barbers will shape and sculpt your beard to
-                perfection, ensuring a clean and polished appearance that
-                complements your overall look.
+                Nasi eksperccy fryzjerzy ukształtują i wyrzeźbią Twoją brodę do
+                perfekcji, zapewniając czysty i elegancki wygląd, który
+                komplementuje Twój ogólny wygląd.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -204,9 +206,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Relax as we use hot towels and premium products to provide you
-                with a close and comfortable shave, leaving your skin smooth and
-                rejuvenated.
+                Zrelaksuj się, gdy używamy gorących ręczników i produktów
+                premium, aby zapewnić Ci bliskie i komfortowe golenie,
+                pozostawiając Twoją skórę gładką i odświeżoną.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -228,9 +230,8 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Precision trimming and conditioning, resulting in a
-                well-maintained and distinguished beard that enhances your
-                appearance.
+                Precyzyjne strzyżenie i pielęgnacja, skutkujące zadbaną i
+                wyróżniającą się brodą, która poprawia Twój wygląd.
               </h5>
             </div>
           </div>
@@ -259,9 +260,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a personalized haircut and beard grooming session that
-                accentuates your features and leaves you looking sharp and
-                well-groomed.
+                Ciesz się spersonalizowanym strzyżeniem i pielęgnacją brody,
+                która podkreśla Twoje cechy i sprawia, że wyglądasz zadbany i
+                schludny.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -283,8 +284,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Experience expert styling techniques and premium products for a
-                sophisticated and refined look that reflects your unique style.
+                Doświadcz ekspertskich technik stylizacji i produktów premium
+                dla wyrafinowanego i dopracowanego wyglądu, który odzwierciedla
+                Twój unikalny styl.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -306,9 +308,9 @@ function ServicesPL() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Receive a comprehensive haircut and beard grooming session,
-                complete with pampering extras and personalized attention, for a
-                polished and confident appearance.
+                Otrzymaj kompleksową sesję strzyżenia i pielęgnacji brody,
+                kompletnie z dodatkami pielęgnacyjnymi i spersonalizowaną uwagą,
+                dla zadbanej i pewnej siebie prezencji.
               </h5>
             </div>
           </div>

@@ -28,7 +28,9 @@ function ProductsPL() {
         <br className="d-block d-md-none" />
         <br className="d-block" />
         {/*////////////////////////////////////////////////////////////////   HAIR   ///////////////////////////////////////////////////////*/}
-        <h1 className="text-center mt-2 pt-5 highlightedTextLargeBlue">Hair</h1>
+        <h1 className="text-center mt-2 pt-5 highlightedTextLargeBlue">
+          Włosy
+        </h1>
         <div
           id="topBorder"
           className="col-12 d-flex justify-content-center align-items-center"
@@ -153,7 +155,7 @@ function ProductsPL() {
         </div>
         {/*////////////////////////////////////////////////////////////////   BEARD   ///////////////////////////////////////////////////////*/}
         <h1 className="text-center mt-5 pt-5 highlightedTextLargeBlue">
-          Beard
+          Broda
         </h1>
         <div
           id="topBorder"
@@ -279,7 +281,7 @@ function ProductsPL() {
         </div>
         {/*////////////////////////////////////////////////////////////////   STYLING   ///////////////////////////////////////////////////////*/}
         <h1 className="text-center mt-5 pt-5 highlightedTextLargeBlue">
-          Cologne
+          Kolonia
         </h1>
         <div
           id="topBorder"
