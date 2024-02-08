@@ -28,37 +28,41 @@ function AboutIS() {
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
-        <h1 className="highlightedTextLarge text-center my-5">About</h1>
+        <h1 className="highlightedTextLarge text-center my-5">Um</h1>
         <div className="d-flex justify-content-center">
-          <h3 className="w-75 text-center text-wrap">
-            Welcome to <span className="highlightedTextPink">cutzNtrimz</span>,
-            a personal project meticulously crafted to create a
-            <span className="highlightedTextBlue"> modern and sleek </span>
-            online barber's shop experience. As the sole developer behind this
-            endeavor, I aimed to design a website with a
-            <span className="highlightedTextBlue"> clean and intuitive </span>
-            user interface, offering a contemporary take on the traditional
-            barber's shop.
+          <h3 className="w-75 text-center text-wrap mx-5">
+            Velkomin/n á <span className="highlightedTextPink">cutzNtrimz</span>
+            , einkalíffræðilegt verkefni sem er skipulagt til að skapa{" "}
+            <span className="highlightedTextBlue">
+              nútímalega og glæsilega{" "}
+            </span>
+            upplifun í netverslun rakara. Sem eini þróunaraðili þessa stefna,
+            ætlaði ég að hönnun vefsíðu með{" "}
+            <span className="highlightedTextBlue">hreinni og skilvirkri </span>
+            notendaviðmóti, sem býður upp á samtímalega túlkun á hefðbundnum
+            rakarabúð.
             <br />
             <br />
-            Step into our virtual barber's shop, where every service, product,
-            and personnel detail has been carefully curated for this
-            <span className="highlightedTextBlue"> hypothetical scenario </span>
-            . Please note that while our offerings are detailed and
-            comprehensive, they are entirely fictitious and not found in real
-            life. <br />
+            Komdu í hina vönduðu netrakabúð okkar, þar sem hver þjónusta, vöru
+            og starfsfólksupplýsing hefur verið vandlega valin fyrir þessa{" "}
+            <span className="highlightedTextBlue">hugmyndarlega aðstæður</span>
+            . Vinsamlegast athugaðu að þrátt fyrir að úrval okkar sé nákvæmt og
+            fjölbreytt, er það alveg ímyndunarveru og ekki til staðar í
+            raunveruleikanum.
             <br />
-            From classic cuts to luxurious treatments, our online platform
-            caters to your grooming needs with
-            <span className="highlightedTextBlue"> simplicity and style </span>.
-            Additionally, I've included pages in two additional languages,
-            ensuring accessibility and inclusivity for a diverse audience.
-            <br /> <br />
-            Explore our digital storefront, experience the convenience of
-            <span className="highlightedTextBlue"> modern technology </span>,
-            and embark on a journey of self-care and style at
-            <span className="highlightedTextPink"> cutzNtrimz</span>, where
-            imagination meets innovation in the world of online barber services.
+            <br />
+            Frá klassískum klippingum til lúxusmeðferða, bíður netstöðin okkar
+            upp á þína hreinsunarþarfir með{" "}
+            <span className="highlightedTextBlue">einfaldleika og stíl</span>.
+            Þar að auki hef ég bætt við síðum á tveimur auka tungumálum, sem
+            tryggir aðgengi og innifaldurleika fyrir fjölbreytta áhorfendahópa.
+            <br />
+            <br />
+            Kannaðu þessar nýjungar í okkar stafræna verslun, upplifi þægindi{" "}
+            <span className="highlightedTextBlue">nútíma tækni</span>, og kynnst
+            ferð í eigin umönnun og stíl hjá{" "}
+            <span className="highlightedTextPink">cutzNtrimz</span>, þar sem
+            ímyndunarflug mætir nýsköpun í heimi vefþjónustu rakara.
           </h3>
         </div>
 
@@ -71,12 +75,11 @@ function AboutIS() {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           >
             <source src="/Assets/Shop/beardShave.mp4" type="video/mp4" />
-            {/* Add additional source elements for different video formats if needed */}
-            Your browser does not support the video tag.
+            Vafrinn þinn styður ekki myndbandatag.
           </video>
         </div>
         {/*/////////////////////////////////////////////////////////////// OUR TEAM /////////////////////////////////////////////*/}
-        <h1 className="highlightedTextLarge text-center">Our Team</h1>
+        <h1 className="highlightedTextLarge text-center">Liðið okkar</h1>
         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap mt-5">
           <div id="barberImageContainer" className="rounded mx-auto">
             <img
@@ -109,12 +112,11 @@ function AboutIS() {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           >
             <source src="/Assets/Shop/hairCut.mp4" type="video/mp4" />
-            {/* Add additional source elements for different video formats if needed */}
-            Your browser does not support the video tag.
+            Vafrinn þinn styður ekki myndbandatag.
           </video>
         </div>
 
-        <h1 className="highlightedTextLarge text-center my-5">References</h1>
+        <h1 className="highlightedTextLarge text-center my-5">Tilvísanir</h1>
         <div className="d-flex flex-column flex-md-row align-items-center justify-content-evenly flex-wrap">
           <div
             id="referenceIcon"

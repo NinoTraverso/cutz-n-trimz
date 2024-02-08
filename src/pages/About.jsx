@@ -30,7 +30,7 @@ function About() {
         <br className="d-block" />
         <h1 className="highlightedTextLarge text-center my-5">About</h1>
         <div className="d-flex justify-content-center">
-          <h3 className="w-75 text-center text-wrap">
+          <h3 className="w-75 text-center text-wrap mx-5">
             Welcome to <span className="highlightedTextPink">cutzNtrimz</span>,
             a personal project meticulously crafted to create a
             <span className="highlightedTextBlue"> modern and sleek </span>

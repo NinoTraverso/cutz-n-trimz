@@ -47,23 +47,24 @@ function HomeIS() {
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
           <h2 id="introOne" className="text-center text-wrap mb-4 mx-5">
-            Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
-            where{" "}
+            Velkomin/n á <span className="highlightedTextPink">cutNtrimz</span>,
+            þar sem
+            <span className="highlightedTextBlue"> hefð mætir nútíma</span>.
+            Komdu inn í gestrisna rými okkar og upplifið listskap klasískrar
+            rakvélstílunar sem blandast saman við samtímalega aðferðir. Hæfir
+            rakkararnir okkar hafa ákveðið sér að smíða sérsníðna klippingu,
+            nákvæmar skeggsnippingar og fíngerða gæðingaþjónustu til að lyfta
+            útliti þínu og{" "}
+            <span className="highlightedTextBlue">auka sjálfsöryggið þitt</span>
+            . Hvort sem þú leitar að hefðbundinni herraríklippingu eða
+            trendsettandi nýjum stíl, trygging okkar um
             <span className="highlightedTextBlue">
-              tradition meets modernity
-            </span>{" "}
-            . Step into our welcoming space and experience the artistry of
-            classic barbering fused with contemporary techniques. Our skilled
-            barbers are dedicated to crafting tailored cuts, precise beard
-            trims, and meticulous grooming services to elevate your look and{" "}
-            <span className="highlightedTextBlue">enhance your confidence</span>
-            . Whether you seek a traditional gentleman's haircut or a trendy new
-            style, our commitment to{" "}
-            <span className="highlightedTextBlue">
-              quality and attention to detail
-            </span>{" "}
-            ensures a memorable and satisfying experience.
+              {" "}
+              gæði og athygli á smáatriðum{" "}
+            </span>
+            tryggir minningaríka og ánægjulega upplifun.
           </h2>
+
           <div
             id="manBeardContainer"
             className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3"
@@ -94,15 +95,15 @@ function HomeIS() {
             />
           </div>
           <h2 id="introOne" className="text-center mb-4 text-wrap mx-5">
-            Our commitment to{" "}
-            <span className="highlightedTextBlue">excellence</span> ensures
-            every visit leaves you feeling confident and satisfied. With a track
-            record of{" "}
-            <span className="highlightedTextBlue">satisfied customers</span> and
-            a dedication to providing{" "}
-            <span className="highlightedTextBlue">exceptional</span> service,
-            your grooming experience is our top priority. Book your appointment
-            today and discover the difference at{" "}
+            Trygging okkar um{" "}
+            <span className="highlightedTextBlue">framúrskarandi gæði</span>
+            tryggir að hver heimsókn lætur þig finna þig öruggan og ánægðan. Með
+            frágangi af{" "}
+            <span className="highlightedTextBlue">ánægðum viðskiptavinum</span>
+            og helgi við að veita{" "}
+            <span className="highlightedTextBlue">úrvals þjónustu</span>
+            er útlit þitt fyrir hreinsun í efstu sæti. Bókaðu tíma þinn í dag og
+            uppgötvaðu mismuninn hjá{" "}
             <span className="highlightedTextPink">cutzNtrimz</span>.
           </h2>
         </div>
@@ -339,15 +340,18 @@ function HomeIS() {
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
           <h2 id="introThree" className="text-center mb-4 mx-5">
-            Designed for your comfort,{" "}
-            <span className="highlightedTextBlue">relax in our lounge</span>{" "}
-            which offers a cozy retreat where you can enjoy a{" "}
-            <span className="highlightedTextBlue">complimentary beverage</span>{" "}
-            while you wait or after your grooming session. With comfortable
-            seating and a welcoming ambiance, it's the perfect place to{" "}
-            <span className="highlightedTextBlue">recharge</span> before or
-            after your appointment.
+            Hönnuður fyrir þinn þægindi,{" "}
+            <span className="highlightedTextBlue">
+              slakaðu af í salnum okkar
+            </span>
+            sem býður upp á hlýlegan flóttastað þar sem þú getur njótað{" "}
+            <span className="highlightedTextBlue">ókeypis drykkjar</span>á meðan
+            þú bíður eða eftir að hafa fengið þína hreinsun. Með þægilegum sætum
+            og gestrisnum andrúmslofti er það fullkominn staður til að{" "}
+            <span className="highlightedTextBlue">endurnýja orkuna</span> áður
+            en eða eftir tímann þinn.
           </h2>
+
           <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
               src="./Assets/Shop/sofa-186633_1920.jpg"

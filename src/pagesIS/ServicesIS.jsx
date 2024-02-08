@@ -56,14 +56,14 @@ function ServicesIS() {
         <div className="d-flex flex-column text-center open-mypage mx-auto">
           <h1 className="highlightedTextLarge mt-5">Services</h1>
           <h3 className="col-8 col-md-6 text-center mx-auto">
-            At <span className="highlightedTextPink">cutzNtrimz</span>, we offer
-            a range of expert grooming services to keep you looking sharp and
-            feeling confident. Our skilled barbers specialize in{" "}
+            Á <span className="highlightedTextPink">cutzNtrimz</span>, bjóðum
+            við upp á fjölda sérfræðinga í hreinsun til að halda þér vel útliti
+            og öruggum á tilfinningum. Hæfir rakkararnir okkar sérhæfa sig í{" "}
             <span className="highlightedTextBlue">
-              precision haircuts, beard trims, and hot towel shaves
+              nákvæmum klippingum, skeggsnippingum og heitum handklæðahöggunum
             </span>
-            . Whether you're looking for a classic style or a modern twist,
-            we've got you covered. Your satisfaction is our priority.
+            . Hvort sem þú ert að leita að hefðbundnum stíl eða nútímalegri
+            snúning, við höfum þig hér. Þín ánægja er okkar forgangur.
           </h3>
         </div>
         <div
@@ -102,9 +102,9 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Our Classic Cut combines traditional techniques with
-                personalized attention to create a versatile and refined haircut
-                that suits your preferences.
+                Klassíski klippingurinn okkar sameinar hefðbundnar aðferðir með
+                persónulegri athygli til að búa til fjölnota og fínn klipping
+                sem passar villur þínar.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -126,8 +126,8 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Featuring precision styling and personalized touches for a
-                sophisticated and modern look that sets you apart
+                Með nákvæmum stílun og persónulegum nálgunum fyrir snjallsýnað
+                og nútímalegt útlit sem skilur þig frá öðrum.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -149,9 +149,9 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a customized consultation and meticulous attention to
-                detail, resulting in a polished and upscale haircut that leaves
-                you feeling confident and refreshed.
+                Njóttu sérsniðins ráðgjafar og hinni nákvæmu athugun að
+                smáatriðum, sem leiðir til ljómandi og hátíðarlega klippingar
+                sem lætur þig finna þig öruggan og endurnýjaðan.
               </h5>
             </div>
           </div>
@@ -180,9 +180,9 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Our expert barbers will shape and sculpt your beard to
-                perfection, ensuring a clean and polished appearance that
-                complements your overall look.
+                Hæfir rakkararnir okkar munu forma og höggva skegg þitt til
+                fullkomnunar, tryggjandi hreint og gljáandi útlit sem bætir
+                saman með almennt útlit þitt.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -204,9 +204,9 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Relax as we use hot towels and premium products to provide you
-                with a close and comfortable shave, leaving your skin smooth and
-                rejuvenated.
+                Slakaðu á meðan við notum heita handklæði og fyrst flokkaðar
+                vörur til að veita þér þéttan og þægilegan rakstur, lætur húðina
+                þína samanstrikna og endurnýjaða.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -228,9 +228,8 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Precision trimming and conditioning, resulting in a
-                well-maintained and distinguished beard that enhances your
-                appearance.
+                Nákvæm skeggsníp og húðrak, sem leiðir til vel viðhaldinnar og
+                frábærar skeggs sem lyftir fram útlitið þitt.
               </h5>
             </div>
           </div>
@@ -259,9 +258,8 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a personalized haircut and beard grooming session that
-                accentuates your features and leaves you looking sharp and
-                well-groomed.
+                Njóttu sérsniðinna klippingar og skeggsraksturs sem leggur
+                áherslu á einkenni þín og lætur þig líta skarpt og velskipað út.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -283,8 +281,8 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Experience expert styling techniques and premium products for a
-                sophisticated and refined look that reflects your unique style.
+                Upplifið sérfræðingarstílun og háþróaða vörur fyrir stílhreint
+                og fínt útlit sem speglar þinn eigin stíl.
               </h5>
             </div>
             <div className="d-flex justify-content-center mx-3">
@@ -306,9 +304,9 @@ function ServicesIS() {
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
-                Receive a comprehensive haircut and beard grooming session,
-                complete with pampering extras and personalized attention, for a
-                polished and confident appearance.
+                Fáðu gründarlega klippingu og skeggsrakstur, fullbúin með
+                hressandi aukahlutum og persónulegri athygli, fyrir gljáandi og
+                örugga framkomu.
               </h5>
             </div>
           </div>

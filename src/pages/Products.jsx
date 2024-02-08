@@ -46,11 +46,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo One</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo One</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -63,11 +65,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo Two</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo Two</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -80,11 +84,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo Three</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo Three</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -97,11 +103,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo Four</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo Four</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -114,11 +122,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo Five</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo Five</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -131,11 +141,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Shampoo Six</h3>
-              <h5 className="card-text">Dundriff</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Shampoo Six</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
         </div>
@@ -160,11 +172,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard One</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -177,11 +191,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard Two</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -194,11 +210,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard Three</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -211,11 +229,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard Four</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -228,11 +248,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard Five</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -245,11 +267,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Beard One</h3>
-              <h5 className="card-text">Clay</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Beard Six</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
         </div>
@@ -274,11 +298,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne One</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -291,11 +317,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne Two</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -308,11 +336,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne Three</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -325,11 +355,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne Four</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -342,11 +374,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne Five</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
           <div
@@ -359,11 +393,13 @@ function Products() {
               alt="Card cap"
             />
             <div className="card-body">
-              <h3 className="highlightedText">Cologne One</h3>
-              <h5 className="card-text">Wood & Cherry</h5>
-              <h5 className="card-text cardPrice">
-                <b className="highlightedText">6,900 isk</b>
+              <h2 className="highlightedText text-secondary">Cologne Six</h2>
+              <h5 className="card-text text-white-50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </h5>
+              <h3 className="card-text cardPrice">
+                <b className="highlightedText text-light">&#36;24</b>
+              </h3>
             </div>
           </div>
         </div>
