@@ -50,6 +50,9 @@ function Services() {
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
         <div className="d-flex flex-column text-center open-mypage mx-auto">
           <h1 className="highlightedText mt-5">Services</h1>
           <h3 className="col-8 col-md-6 text-center mx-auto">
@@ -89,7 +92,7 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Classic Cut</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;30 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
@@ -113,13 +116,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Premium Cut</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;40 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;24
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -136,13 +139,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Deluxe Cut</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;55 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;32
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -167,13 +170,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Beard Trim</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;20 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;14
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -191,13 +194,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Hot Towel Shave</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;25 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;18
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -221,7 +224,7 @@ function Services() {
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;22
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -246,13 +249,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Classic Cut & Trim</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;50 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;28
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -270,13 +273,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Luxury Cut & Trim</span>
                   </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;65 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;36
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
@@ -293,13 +296,13 @@ function Services() {
                   <h2>
                     <span className="highlightedText">Deluxe Package</span>
                   </h2>
-                  <h5 className="ms-3 ">&#40;35 mins&#41;</h5>
+                  <h5 className="ms-3 text-dark">&#40;80 mins&#41;</h5>
                 </div>
                 <h4
                   className="me-3 highlightedText"
                   style={{ color: "#d69a85" }}
                 >
-                  &#36;20
+                  &#36;44
                 </h4>
               </div>
               <h5 className="ms-2 me-3 text-white-50">
