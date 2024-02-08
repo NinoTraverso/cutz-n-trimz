@@ -140,6 +140,23 @@ nav {
   font-family: "Lobster Two", sans-serif;
 }
 
+.highlightedTextLargeBlue {
+  font-family: "Lobster Two", sans-serif;
+  color: #3c9c9c;
+  font-size: 100px;
+}
+
+.highlightedTextLargePink {
+  font-family: "Lobster Two", sans-serif;
+  color: #d69a85;
+  font-size: 100px;
+}
+
+.highlightedTextLarge {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 100px;
+}
+
 #mainHomeImageIntro {
   width: 100%;
   height: 100vh;
@@ -225,6 +242,41 @@ footer * {
     background-image: none;
     color: #000000;
   }
+}
+
+/*---------------------------------------------------- SERVICES CONTAINER --------------------------------------------------*/
+#topBorder {
+  width: 100%;
+  height: auto;
+}
+
+#topBorder img {
+  width: 320px;
+  height: auto;
+}
+
+#bottomBorder {
+  width: 100%;
+  height: auto;
+}
+
+#bottomBorder img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  width: 320px;
+  height: auto;
+}
+
+#servicesList {
+  display: none;
+}
+
+.slideDown {
+  display: block !important;
+}
+
+#shopList {
+  display: none;
 }
 
 /*--------------------- HAIR SERVICES -----------------------*/
@@ -332,39 +384,16 @@ footer * {
   height: 120px;
 }
 
-/*---------------------------------------------------- SERVICES CONTAINER --------------------------------------------------*/
-#topBorder {
-  width: 100%;
-  height: auto;
+/*-----------------------------------------PRODUCTS---------------------------------------------*/
+
+.productCard {
+  background-color: #d69a85;
+  color: white;
+  border: none;
 }
 
-#topBorder img {
-  width: 320px;
-  height: auto;
-}
-
-#bottomBorder {
-  width: 100%;
-  height: auto;
-}
-
-#bottomBorder img {
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
-  width: 320px;
-  height: auto;
-}
-
-#servicesList {
-  display: none;
-}
-
-.slideDown {
-  display: block !important;
-}
-
-#shopList {
-  display: none;
+.cardPrice {
+  color: black;
 }
 
 /*---------------------------------------------- ABOUT -----------------------------------------------*/
@@ -387,42 +416,4 @@ footer * {
 #referenceIcon img {
   width: 160px;
   height: auto;
-}
-
-/*-----------------------------------------PRODUCTS---------------------------------------------*/
-.shopList {
-  display: none;
-}
-.svg-left {
-  width: 140px;
-  height: auto;
-  transform: rotate(-90deg);
-}
-
-.svg-left img {
-  width: 140px;
-  height: auto;
-}
-
-.svg-right {
-  width: 140px;
-  height: auto;
-  transform: rotate(90deg);
-}
-
-.svg-right img {
-  width: 140px;
-  height: auto;
-}
-
-.productCard {
-  background-color: #6f5e53;
-  /*  border: solid 4px #594b42;*/
-  box-shadow: 8px 9px 0px -3px #50463c;
-  -webkit-box-shadow: 8px 9px 0px -3px #50463c;
-  -moz-box-shadow: 8px 9px 0px -3px #50463c;
-}
-
-.cardPrice {
-  color: rgb(220, 202, 144);
 }

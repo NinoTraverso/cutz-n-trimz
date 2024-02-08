@@ -28,6 +28,40 @@ function About() {
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
+        <h1 className="highlightedTextLarge text-center my-5">About</h1>
+        <div className="d-flex justify-content-center">
+          <h3 className="w-75 text-center text-wrap">
+            Welcome to <span className="highlightedTextPink">cutzNtrimz</span>,
+            a personal project meticulously crafted to create a
+            <span className="highlightedTextBlue"> modern and sleek </span>
+            online barber's shop experience. As the sole developer behind this
+            endeavor, I aimed to design a website with a
+            <span className="highlightedTextBlue"> clean and intuitive </span>
+            user interface, offering a contemporary take on the traditional
+            barber's shop.
+            <br />
+            <br />
+            Step into our virtual barber's shop, where every service, product,
+            and personnel detail has been carefully curated for this
+            <span className="highlightedTextBlue"> hypothetical scenario </span>
+            . Please note that while our offerings are detailed and
+            comprehensive, they are entirely fictitious and not found in real
+            life. <br />
+            <br />
+            From classic cuts to luxurious treatments, our online platform
+            caters to your grooming needs with
+            <span className="highlightedTextBlue"> simplicity and style </span>.
+            Additionally, I've included pages in two additional languages,
+            ensuring accessibility and inclusivity for a diverse audience.
+            <br /> <br />
+            Explore our digital storefront, experience the convenience of
+            <span className="highlightedTextBlue"> modern technology </span>,
+            and embark on a journey of self-care and style at
+            <span className="highlightedTextPink"> cutzNtrimz</span>, where
+            imagination meets innovation in the world of online barber services.
+          </h3>
+        </div>
+
         <div id="mainHomeImageIntro" className="my-5">
           <video
             autoPlay
@@ -42,7 +76,7 @@ function About() {
           </video>
         </div>
         {/*/////////////////////////////////////////////////////////////// OUR TEAM /////////////////////////////////////////////*/}
-        <h1 className="highlightedText text-center">Our Team</h1>
+        <h1 className="highlightedTextLarge text-center">Our Team</h1>
         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center flex-wrap mt-5">
           <div id="barberImageContainer" className="rounded mx-auto">
             <img
@@ -79,40 +113,8 @@ function About() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <h1 className="highlightedText text-center my-5">About</h1>
-        <div className="d-flex justify-content-center">
-          <h3 className="w-75 text-center text-wrap">
-            Welcome to <span className="highlightedTextPink">cutzNtrimz</span>,
-            a personal project meticulously crafted to create a
-            <span className="highlightedTextBlue"> modern and sleek </span>
-            online barber's shop experience. As the sole developer behind this
-            endeavor, I aimed to design a website with a
-            <span className="highlightedTextBlue"> clean and intuitive </span>
-            user interface, offering a contemporary take on the traditional
-            barber's shop.
-            <br />
-            <br />
-            Step into our virtual barber's shop, where every service, product,
-            and personnel detail has been carefully curated for this
-            <span className="highlightedTextBlue"> hypothetical scenario </span>
-            . Please note that while our offerings are detailed and
-            comprehensive, they are entirely fictitious and not found in real
-            life. <br />
-            <br />
-            From classic cuts to luxurious treatments, our online platform
-            caters to your grooming needs with
-            <span className="highlightedTextBlue"> simplicity and style </span>.
-            Additionally, I've included pages in two additional languages,
-            ensuring accessibility and inclusivity for a diverse audience.
-            <br /> <br />
-            Explore our digital storefront, experience the convenience of
-            <span className="highlightedTextBlue"> modern technology </span>,
-            and embark on a journey of self-care and style at
-            <span className="highlightedTextPink"> cutzNtrimz</span>, where
-            imagination meets innovation in the world of online barber services.
-          </h3>
-        </div>
-        <h1 className="highlightedText text-center my-5">References</h1>
+
+        <h1 className="highlightedTextLarge text-center my-5">References</h1>
         <div className="d-flex flex-column flex-md-row align-items-center justify-content-evenly flex-wrap">
           <div
             id="referenceIcon"

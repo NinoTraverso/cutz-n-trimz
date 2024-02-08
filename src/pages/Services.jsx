@@ -54,7 +54,7 @@ function Services() {
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
         <div className="d-flex flex-column text-center open-mypage mx-auto">
-          <h1 className="highlightedText mt-5">Services</h1>
+          <h1 className="highlightedTextLarge mt-5">Services</h1>
           <h3 className="col-8 col-md-6 text-center mx-auto">
             At <span className="highlightedTextPink">cutzNtrimz</span>, we offer
             a range of expert grooming services to keep you looking sharp and
