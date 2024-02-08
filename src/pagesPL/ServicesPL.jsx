@@ -45,133 +45,271 @@ function ServicesPL() {
         </div>
       </div>
       <main className="mt-2" style={{ zIndex: 0 }}>
-        <h1>SERVICES POLISH</h1>
         {/*/////////////////////////////////////////////////////////////// MAIN /////////////////////////////////////////////*/}
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
         <br className="d-block" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <div className="d-flex flex-column text-center open-mypage mx-auto">
+          <h1 className="highlightedTextLarge mt-5">Services</h1>
+          <h3 className="col-8 col-md-6 text-center mx-auto">
+            At <span className="highlightedTextPink">cutzNtrimz</span>, we offer
+            a range of expert grooming services to keep you looking sharp and
+            feeling confident. Our skilled barbers specialize in{" "}
+            <span className="highlightedTextBlue">
+              precision haircuts, beard trims, and hot towel shaves
+            </span>
+            . Whether you're looking for a classic style or a modern twist,
+            we've got you covered. Your satisfaction is our priority.
+          </h3>
+        </div>
         <div
           id="topBorder"
           className="col-12 d-flex justify-content-center align-items-center"
         >
           <img src="./Assets/ImagesAndIcons/border.svg" alt="topBorder" />
         </div>
-        <div className="d-flex flex-column text-center open-mypage mx-auto">
-          <h2>SERVICES</h2>
-          <h5
-            style={{ fontFamily: '"Jost", sans-serif', fontWeight: 300 }}
-            className="col-6 text-center mx-auto"
+
+        <div
+          id="servicesList"
+          className="d-flex flex-column flex-md-row justify-content-around align-items-center flex-wrap"
+        >
+          <div
+            id="hairServices"
+            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minus,
-            cumque saepe a dolorum porro! Necessitatibus ut aliquam sunt nam.
-            Omnis, explicabo. Sit, natus dolorum rerum esse sint odit
-            laudantium.
-          </h5>
-        </div>
-        <div id="servicesList">
-          <div className="d-flex justify-content-center d-block d-xl-none mt-3">
             <img
-              src="./Assets/Shop/beardGrooming.jpg"
-              alt="beardGroomingImage"
-              style={{ width: 500, height: "auto" }}
-              className="rounded"
+              src="/Assets/ImagesAndIcons/hair.png"
+              alt="hairIcon"
+              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
             />
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Classic Cut</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;30 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;20
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Our Classic Cut combines traditional techniques with
+                personalized attention to create a versatile and refined haircut
+                that suits your preferences.
+              </h5>
+            </div>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
+            </div>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Premium Cut</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;40 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;24
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Featuring precision styling and personalized touches for a
+                sophisticated and modern look that sets you apart
+              </h5>
+            </div>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
+            </div>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Deluxe Cut</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;55 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;32
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Enjoy a customized consultation and meticulous attention to
+                detail, resulting in a polished and upscale haircut that leaves
+                you feeling confident and refreshed.
+              </h5>
+            </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5">
-            <div className="gentleman col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Haircut &amp; styling</h4>
-              <p>
-                <b>7,500 ISK</b>
-              </p>
-              <p>
-                <i>&#40;40 minutes&#41;</i>
-              </p>
+          <div
+            id="beardServices"
+            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
+          >
+            <img
+              src="/Assets/ImagesAndIcons/beard.png"
+              alt="hairIcon"
+              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
+            />
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Beard Trim</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;20 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;14
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Our expert barbers will shape and sculpt your beard to
+                perfection, ensuring a clean and polished appearance that
+                complements your overall look.
+              </h5>
             </div>
-            <div className="combo col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Haircut &amp; styling</h4>
-              <p>
-                <b>13,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;60 minutes&#41;</i>
-              </p>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
             </div>
-            <div className="luxuryBeard col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>6,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;30 minutes&#41;</i>
-              </p>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Hot Towel Shave</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;25 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;18
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Relax as we use hot towels and premium products to provide you
+                with a close and comfortable shave, leaving your skin smooth and
+                rejuvenated.
+              </h5>
+            </div>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
+            </div>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Deluxe Trim</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;22
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Precision trimming and conditioning, resulting in a
+                well-maintained and distinguished beard that enhances your
+                appearance.
+              </h5>
             </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
-            <div className="sharpen col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Refresh</h4>
-              <p>
-                <b>4,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;25 minutes&#41;</i>
-              </p>
+          <div
+            id="hairBeardServices"
+            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
+          >
+            <img
+              src="/Assets/ImagesAndIcons/beardHair.png"
+              alt="hairIcon"
+              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
+            />
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Classic Cut & Trim</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;50 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;28
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Enjoy a personalized haircut and beard grooming session that
+                accentuates your features and leaves you looking sharp and
+                well-groomed.
+              </h5>
             </div>
-            <div className="expressFacial col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>4,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;20 minutes&#41;</i>
-              </p>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
             </div>
-            <div className="hotTowelShave col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>6,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;25 minutes&#41;</i>
-              </p>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Luxury Cut & Trim</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;65 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;36
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Experience expert styling techniques and premium products for a
+                sophisticated and refined look that reflects your unique style.
+              </h5>
             </div>
-          </div>
-          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
-            <div className="basicBeardTrim col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>4,500 ISK</b>
-              </p>
-              <p>
-                <i>&#40;30 minutes&#41;</i>
-              </p>
+            <div className="d-flex justify-content-center mx-3">
+              <hr className="w-75" />
             </div>
-            <div className="browShaping col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>4,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;30 minutes&#41;</i>
-              </p>
-            </div>
-            <div className="royalStag col-12 col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
-              <h1>Cut</h1>
-              <h4>Cut</h4>
-              <p>
-                <b>18,000 ISK</b>
-              </p>
-              <p>
-                <i>&#40;25 minutes&#41;</i>
-              </p>
+            <div className="my-2">
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex flex-row align-items-center ms-2">
+                  <h2>
+                    <span className="highlightedText">Deluxe Package</span>
+                  </h2>
+                  <h5 className="ms-3 text-dark">&#40;80 mins&#41;</h5>
+                </div>
+                <h4
+                  className="me-3 highlightedText"
+                  style={{ color: "#d69a85" }}
+                >
+                  &#36;44
+                </h4>
+              </div>
+              <h5 className="ms-2 me-3 text-white-50">
+                Receive a comprehensive haircut and beard grooming session,
+                complete with pampering extras and personalized attention, for a
+                polished and confident appearance.
+              </h5>
             </div>
           </div>
         </div>

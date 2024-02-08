@@ -23,11 +23,8 @@ function HomePL() {
         </div>
       </div>
       <main className="mt-2" style={{ zIndex: 0 }}>
-        <h1>POLISH HOME</h1>
         {/*/////////////////////////////////////////////////////////////// MAIN /////////////////////////////////////////////*/}
-        <br className="d-none d-md-block" />
-        <br className="d-none d-md-block" />
-        <br className="d-none d-md-block" />
+
         <br className="d-none d-md-block" />
         <br className="d-none d-md-block" />
         <br className="d-none d-md-block" />
@@ -37,64 +34,77 @@ function HomePL() {
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
+        <br className="d-block d-md-none" />
 
-        <div className="d-flex flex-column flex-xl-row mx-5 justify-content-around align-items-center">
-          <h1
-            className="d-none d-xl-block mt-5 text-center pt-3"
-            style={{ color: "#000000" }}
+        <div id="mainHomeImageIntro" className="mb-5">
+          <img src="/Assets/Shop/homeMainIntroImage.jpg" alt="barberTools" />
+        </div>
+
+        <div
+          id="introOneContainer"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
+        >
+          <h2 id="introOne" className="text-center text-wrap mb-4 mx-5">
+            Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
+            where{" "}
+            <span className="highlightedTextBlue">
+              tradition meets modernity
+            </span>{" "}
+            . Step into our welcoming space and experience the artistry of
+            classic barbering fused with contemporary techniques. Our skilled
+            barbers are dedicated to crafting tailored cuts, precise beard
+            trims, and meticulous grooming services to elevate your look and{" "}
+            <span className="highlightedTextBlue">enhance your confidence</span>
+            . Whether you seek a traditional gentleman's haircut or a trendy new
+            style, our commitment to{" "}
+            <span className="highlightedTextBlue">
+              quality and attention to detail
+            </span>{" "}
+            ensures a memorable and satisfying experience.
+          </h2>
+          <div
+            id="manBeardContainer"
+            className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
-            consectetur, laudantium saepe fuga cupiditate iusto! Iure eveniet
-            dolor autem error magnam doloremque facere vel a soluta iste!
-            Doloremque, repudiandae sint. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Aliquid tempore laboriosam voluptatem sequi fugit
-            dolorum deleniti iste, totam blanditiis mollitia similique impedit,
-            corporis accusantium itaque. Modi, id. Asperiores, eaque? At!
-          </h1>
-          <div className="w-50 w-md-25 h-25 h-md-75 ms-3 me-0 mt-md-0 d-flex justify-content-center align-items-center justify-content-md-center">
             <img
               src="./Assets/ImagesAndIcons/man-3263509_1920.png"
-              alt="manBeard"
+              rel="haircut"
+              className="manBeard rounded"
+              alt="waitingRoom"
             />
           </div>
-
-          <h1
-            className="d-block d-xl-none text-center mt-4 mb-4"
-            style={{ color: "#000000" }}
-          >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            enim molestiae, sit mollitia aut non? Culpa, nesciunt vel. Excepturi
-            praesentium iusto fugit ipsam voluptas esse modi ipsa sapiente quia
-            magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-            soluta explicabo animi dolore quam est, minus sint sunt. Excepturi
-            ipsum modi voluptate sint mollitia non eligendi blanditiis sequi
-            doloribus iure?
-          </h1>
         </div>
         <div
           style={{ width: "100%", height: 100 }}
           className="d-none d-xl-block"
         />
         {/*/////////////////////////////////////////////////////////////// BARBER /////////////////////////////////////////////*/}
-        <div className="d-flex flex-column flex-xl-row mx-5 mb-5 pb-5 justify-content-around align-items-center mt-4">
-          <div className="w-50 h-100 mx-3 rounded-pill d-flex justify-content-center">
+        <div
+          id="introTwoContainer"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
+        >
+          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
-              src="./Assets/Shop/eugene-chystiakov-taZSJ6xmt48-unsplash.jpg"
-              rel="barbers"
-              className="barberPhoto rounded-circle px-4"
-              alt="barberJeffrey"
+              src="./Assets/Shop/beardGrooming.jpg"
+              rel="haircut"
+              className="beardGrooming rounded"
+              alt="waitingRoom"
             />
           </div>
-          <h1 className="text-center my-4" style={{ color: "#000000" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non
-            dolore minus? Minus libero odio dolor excepturi dicta ratione
-            eligendi facilis obcaecati reiciendis! Ex consectetur autem
-            dignissimos illum blanditiis labore. Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Molestias ipsam asperiores officia
-            nobis labore odio, modi laboriosam suscipit! Soluta ea consequatur
-            praesentium aliquid tempore iste cum perferendis, modi adipisci
-            repellendus.
-          </h1>
+          <h2 id="introOne" className="text-center mb-4 text-wrap mx-5">
+            Our commitment to{" "}
+            <span className="highlightedTextBlue">excellence</span> ensures
+            every visit leaves you feeling confident and satisfied. With a track
+            record of{" "}
+            <span className="highlightedTextBlue">satisfied customers</span> and
+            a dedication to providing{" "}
+            <span className="highlightedTextBlue">exceptional</span> service,
+            your grooming experience is our top priority. Book your appointment
+            today and discover the difference at{" "}
+            <span className="highlightedTextPink">cutzNtrimz</span>.
+          </h2>
         </div>
         <div
           style={{ width: "100%", height: 120 }}
@@ -115,36 +125,17 @@ function HomePL() {
             <div className="carousel-item active">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut.png"
+                  src="./Assets/Haircuts/haircut.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut2.png"
+                  src="./Assets/Haircuts/haircut2.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut3.png"
-                  className="d-block w-25 mx-auto rounded"
-                  alt="haircut1"
-                />
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="d-flex flex-row">
-                <img
-                  src="./Assets/Haircuts/haircut4.png"
-                  className="d-block w-25 mx-auto rounded"
-                  alt="haircut1"
-                />
-                <img
-                  src="./Assets/Haircuts/haircut5.png"
-                  className="d-block w-25 mx-auto rounded"
-                  alt="haircut1"
-                />
-                <img
-                  src="./Assets/Haircuts/haircut6.png"
+                  src="./Assets/Haircuts/haircut3.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -153,17 +144,17 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut8.png"
+                  src="./Assets/Haircuts/haircut4.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut10.png"
+                  src="./Assets/Haircuts/haircut5.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut9.png"
+                  src="./Assets/Haircuts/haircut6.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -172,17 +163,36 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut11.png"
+                  src="./Assets/Haircuts/haircut8.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut12.png"
+                  src="./Assets/Haircuts/haircut10.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
                 <img
-                  src="./Assets/Haircuts/haircut13.png"
+                  src="./Assets/Haircuts/haircut9.jpg"
+                  className="d-block w-25 mx-auto rounded"
+                  alt="haircut1"
+                />
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="d-flex flex-row">
+                <img
+                  src="./Assets/Haircuts/haircut11.jpg"
+                  className="d-block w-25 mx-auto rounded"
+                  alt="haircut1"
+                />
+                <img
+                  src="./Assets/Haircuts/haircut12.jpg"
+                  className="d-block w-25 mx-auto rounded"
+                  alt="haircut1"
+                />
+                <img
+                  src="./Assets/Haircuts/haircut13.jpg"
                   className="d-block w-25 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -195,11 +205,10 @@ function HomePL() {
         <br className="d-none d-xl-block" />
         <br className="d-none d-xl-block" />
         <br className="d-none d-xl-block" />
-        <br className="d-none d-xl-block" />
         {/*/////////////////////////////////////////////////////////////// CAROUSEL HAIRCUTS (<MD) /////////////////////////////////////////////*/}
         <div
           id="carouselHaircutsmd"
-          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3"
+          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3 d-flex align-items-center"
           data-bs-ride="carousel"
           style={{ height: 500 }}
         >
@@ -207,7 +216,7 @@ function HomePL() {
             <div className="carousel-item active">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut.png"
+                  src="./Assets/Haircuts/haircut.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -216,7 +225,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut2.png"
+                  src="./Assets/Haircuts/haircut2.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -225,7 +234,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut3.png"
+                  src="./Assets/Haircuts/haircut3.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -234,7 +243,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut4.png"
+                  src="./Assets/Haircuts/haircut4.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -243,7 +252,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut5.png"
+                  src="./Assets/Haircuts/haircut5.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -252,7 +261,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut6.png"
+                  src="./Assets/Haircuts/haircut6.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -261,7 +270,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut8.png"
+                  src="./Assets/Haircuts/haircut8.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -270,7 +279,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut9.png"
+                  src="./Assets/Haircuts/haircut9.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -279,7 +288,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut10.png"
+                  src="./Assets/Haircuts/haircut10.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -288,7 +297,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut11.png"
+                  src="./Assets/Haircuts/haircut11.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -297,7 +306,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut12.png"
+                  src="./Assets/Haircuts/haircut12.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -306,7 +315,7 @@ function HomePL() {
             <div className="carousel-item">
               <div className="d-flex flex-row">
                 <img
-                  src="./Assets/Haircuts/haircut13.png"
+                  src="./Assets/Haircuts/haircut13.jpg"
                   className="d-block w-75 mx-auto rounded"
                   alt="haircut1"
                 />
@@ -316,32 +325,35 @@ function HomePL() {
         </div>
         <br className="d-none d-sm-block d-md-none" />
         <br className="d-block d-md-none" />
-        <br className="d-block d-md-none" />
         {/*/////////////////////////////////////////////////////////////// LOUNGE /////////////////////////////////////////////*/}
         <div
-          style={{ width: "100%", height: 200 }}
+          style={{ width: "100%", height: 120 }}
           className="d-none d-xxl-block"
         />
         <div
           style={{ width: "100%", height: 100 }}
           className="d-none d-xl-block"
         />
-        <div className="d-flex flex-column flex-xl-row mx-5 mt-3 justify-content-around align-items-center">
-          <h2 className="text-center mb-4" style={{ color: "#000000" }}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-            assumenda voluptates perferendis? Optio iste commodi doloribus
-            provident et fuga odit reiciendis a quidem velit! Unde voluptate
-            provident commodi expedita magnam. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Rem architecto accusantium esse totam
-            deserunt, quis, perspiciatis nemo impedit porro repellendus in
-            commodi molestias libero soluta, itaque beatae harum sint natus.
+        <div
+          id="introThreeContainer"
+          className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
+        >
+          <h2 id="introThree" className="text-center mb-4 mx-5">
+            Designed for your comfort,{" "}
+            <span className="highlightedTextBlue">relax in our lounge</span>{" "}
+            which offers a cozy retreat where you can enjoy a{" "}
+            <span className="highlightedTextBlue">complimentary beverage</span>{" "}
+            while you wait or after your grooming session. With comfortable
+            seating and a welcoming ambiance, it's the perfect place to{" "}
+            <span className="highlightedTextBlue">recharge</span> before or
+            after your appointment.
           </h2>
-          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center px-3">
+          <div className="w-50 h-75 mx-3 rounded d-flex justify-content-center p-3">
             <img
               src="./Assets/Shop/sofa-186633_1920.jpg"
               rel="haircut"
               className="loungePhoto rounded"
-              alt="lounge"
+              alt="waitingRoom"
             />
           </div>
         </div>

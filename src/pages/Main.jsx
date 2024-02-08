@@ -74,7 +74,7 @@ function Main() {
               alt="waitingRoom"
             />
           </div>
-          <h2 id="introOne" className="text-center mb-4 text-wrap w-75">
+          <h2 id="introOne" className="text-center mb-4 text-wrap mx-5">
             Our commitment to{" "}
             <span className="highlightedTextBlue">excellence</span> ensures
             every visit leaves you feeling confident and satisfied. With a track
@@ -319,7 +319,7 @@ function Main() {
           id="introThreeContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introThree" className="text-center mb-4 w-75">
+          <h2 id="introThree" className="text-center mb-4 mx-5">
             Designed for your comfort,{" "}
             <span className="highlightedTextBlue">relax in our lounge</span>{" "}
             which offers a cozy retreat where you can enjoy a{" "}

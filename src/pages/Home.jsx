@@ -46,7 +46,7 @@ function Home() {
           id="introOneContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introOne" className="text-center mb-4 ">
+          <h2 id="introOne" className="text-center text-wrap mb-4 mx-5">
             Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
             where{" "}
             <span className="highlightedTextBlue">
@@ -93,7 +93,7 @@ function Home() {
               alt="waitingRoom"
             />
           </div>
-          <h2 id="introOne" className="text-center mb-4 text-wrap w-75">
+          <h2 id="introOne" className="text-center mb-4 text-wrap mx-5">
             Our commitment to{" "}
             <span className="highlightedTextBlue">excellence</span> ensures
             every visit leaves you feeling confident and satisfied. With a track
@@ -208,7 +208,7 @@ function Home() {
         {/*/////////////////////////////////////////////////////////////// CAROUSEL HAIRCUTS (<MD) /////////////////////////////////////////////*/}
         <div
           id="carouselHaircutsmd"
-          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3"
+          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3 d-flex align-items-center"
           data-bs-ride="carousel"
           style={{ height: 500 }}
         >
@@ -325,7 +325,6 @@ function Home() {
         </div>
         <br className="d-none d-sm-block d-md-none" />
         <br className="d-block d-md-none" />
-        <br className="d-block d-md-none" />
         {/*/////////////////////////////////////////////////////////////// LOUNGE /////////////////////////////////////////////*/}
         <div
           style={{ width: "100%", height: 120 }}
@@ -339,7 +338,7 @@ function Home() {
           id="introThreeContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introThree" className="text-center mb-4 w-75">
+          <h2 id="introThree" className="text-center mb-4 mx-5">
             Designed for your comfort,{" "}
             <span className="highlightedTextBlue">relax in our lounge</span>{" "}
             which offers a cozy retreat where you can enjoy a{" "}
