@@ -187,7 +187,7 @@ nav {
 
 footer {
   font-family: "Open Sans", sans-serif;
-  background-color: #3c9c9c;
+  background-color: rgba(60, 156, 156, 0.6);
   color: rgb(255, 255, 255);
 }
 
@@ -331,137 +331,6 @@ footer * {
   width: 120px;
   height: 120px;
 }
-
-/*
-
-/*--------------------- SHARPEN -----------------------
-.sharpen {
-  opacity: 0;
-  transform: translateX(-50%);
-}
-
-@keyframes fadeInFromLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.sharpen {
-  animation: fadeInFromLeft 5s ease-out;
-  animation-fill-mode: forwards;
-}
-/*--------------------- EXPRESS FACIAL -----------------------
-.expressFacial {
-  opacity: 0;
-  transform: translateY(50%);
-}
-
-@keyframes fadeInFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.expressFacial {
-  animation: fadeInFromBottom 5s ease-out;
-  animation-fill-mode: forwards;
-}
-/*--------------------- HOT TOWEL SHAVE -----------------------
-.hotTowelShave {
-  opacity: 0;
-  transform: translateX(50%);
-}
-
-@keyframes fadeInFromRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.hotTowelShave {
-  animation: fadeInFromRight 5s ease-out;
-  animation-fill-mode: forwards;
-}
-/*--------------------- BASIC BEARD TRIM -----------------------
-.basicBeardTrim {
-  opacity: 0;
-  transform: translateX(-50%);
-}
-
-@keyframes fadeInFromLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.basicBeardTrim {
-  animation: fadeInFromLeft 5s ease-out;
-  animation-fill-mode: forwards;
-}
-/*--------------------- BROW SHAPING -----------------------
-.browShaping {
-  opacity: 0;
-  transform: translateY(50%);
-}
-
-@keyframes fadeInFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.browShaping {
-  animation: fadeInFromBottom 5s ease-out;
-  animation-fill-mode: forwards;
-}
-/*--------------------- ROYAL STAG -----------------------
-.royalStag {
-  opacity: 0;
-  transform: translateX(50%);
-}
-
-@keyframes fadeInFromRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.royalStag {
-  animation: fadeInFromRight 5s ease-out;
-  animation-fill-mode: forwards;
-}
-
-*/
 
 /*---------------------------------------------------- SERVICES CONTAINER --------------------------------------------------*/
 #topBorder {
