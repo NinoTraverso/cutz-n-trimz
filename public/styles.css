@@ -227,8 +227,8 @@ footer * {
   }
 }
 
-/*--------------------- GENTLEMAN -----------------------*/
-.gentleman {
+/*--------------------- HAIR SERVICES -----------------------*/
+#hairServices {
   opacity: 0;
   transform: translateX(-50%);
 }
@@ -244,13 +244,26 @@ footer * {
   }
 }
 
-.gentleman {
+#hairServices {
   animation: fadeInFromLeft 5s ease-out;
   animation-fill-mode: forwards;
 }
 
-/*--------------------- COMBO -----------------------*/
-.combo {
+#hairServices {
+  background-color: #3c9c9c;
+  color: white;
+  width: 400px;
+  height: 800px;
+}
+
+#hairServices img {
+  background-color: #e8e4c5;
+  width: 120px;
+  height: 120px;
+}
+
+/*--------------------- BEARD SERVICES -----------------------*/
+#beardServices {
   opacity: 0;
   transform: translateY(50%);
 }
@@ -266,13 +279,26 @@ footer * {
   }
 }
 
-.combo {
+#beardServices {
   animation: fadeInFromBottom 5s ease-out;
   animation-fill-mode: forwards;
 }
 
-/*--------------------- LUXURY BEARD -----------------------*/
-.luxuryBeard {
+#beardServices {
+  background-color: #3c9c9c;
+  color: white;
+  width: 400px;
+  height: 800px;
+}
+
+#beardServices img {
+  background-color: #e8e4c5;
+  width: 120px;
+  height: 120px;
+}
+
+/*--------------------- HAIR & BEARD SERVICES -----------------------*/
+#hairBeardServices {
   opacity: 0;
   transform: translateX(50%);
 }
@@ -288,12 +314,27 @@ footer * {
   }
 }
 
-.luxuryBeard {
+#hairBeardServices {
   animation: fadeInFromRight 5s ease-out;
   animation-fill-mode: forwards;
 }
 
-/*--------------------- SHARPEN -----------------------*/
+#hairBeardServices {
+  background-color: #3c9c9c;
+  color: white;
+  width: 400px;
+  height: 800px;
+}
+
+#hairBeardServices img {
+  background-color: #e8e4c5;
+  width: 120px;
+  height: 120px;
+}
+
+/*
+
+/*--------------------- SHARPEN -----------------------
 .sharpen {
   opacity: 0;
   transform: translateX(-50%);
@@ -314,7 +355,7 @@ footer * {
   animation: fadeInFromLeft 5s ease-out;
   animation-fill-mode: forwards;
 }
-/*--------------------- EXPRESS FACIAL -----------------------*/
+/*--------------------- EXPRESS FACIAL -----------------------
 .expressFacial {
   opacity: 0;
   transform: translateY(50%);
@@ -335,7 +376,7 @@ footer * {
   animation: fadeInFromBottom 5s ease-out;
   animation-fill-mode: forwards;
 }
-/*--------------------- HOT TOWEL SHAVE -----------------------*/
+/*--------------------- HOT TOWEL SHAVE -----------------------
 .hotTowelShave {
   opacity: 0;
   transform: translateX(50%);
@@ -356,7 +397,7 @@ footer * {
   animation: fadeInFromRight 5s ease-out;
   animation-fill-mode: forwards;
 }
-/*--------------------- BASIC BEARD TRIM -----------------------*/
+/*--------------------- BASIC BEARD TRIM -----------------------
 .basicBeardTrim {
   opacity: 0;
   transform: translateX(-50%);
@@ -377,7 +418,7 @@ footer * {
   animation: fadeInFromLeft 5s ease-out;
   animation-fill-mode: forwards;
 }
-/*--------------------- BROW SHAPING -----------------------*/
+/*--------------------- BROW SHAPING -----------------------
 .browShaping {
   opacity: 0;
   transform: translateY(50%);
@@ -398,7 +439,7 @@ footer * {
   animation: fadeInFromBottom 5s ease-out;
   animation-fill-mode: forwards;
 }
-/*--------------------- ROYAL STAG -----------------------*/
+/*--------------------- ROYAL STAG -----------------------
 .royalStag {
   opacity: 0;
   transform: translateX(50%);
@@ -420,33 +461,7 @@ footer * {
   animation-fill-mode: forwards;
 }
 
-.sharpen {
-  opacity: 1;
-  transform: rotate(0deg);
-}
-
-@keyframes enhanceService {
-  0% {
-    transform: rotate(-10deg);
-  }
-  25% {
-    transform: rotate(10deg);
-  }
-  50% {
-    transform: rotate(-10deg);
-  }
-  75% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.sharpen {
-  opacity: 1;
-  animation: enhanceService 10s ease;
-}
+*/
 
 /*---------------------------------------------------- SERVICES CONTAINER --------------------------------------------------*/
 #topBorder {
