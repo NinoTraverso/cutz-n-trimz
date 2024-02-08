@@ -27,7 +27,7 @@ function Main() {
           id="introOneContainer"
           className="d-flex flex-column flex-xl-row mt-3 justify-content-around align-items-center"
         >
-          <h2 id="introOne" className="text-center mb-4 ">
+          <h2 id="introOne" className="text-center text-wrap mb-4 mx-5">
             Welcome to <span className="highlightedTextPink">cutNtrimz</span>,
             where{" "}
             <span className="highlightedTextBlue">
@@ -189,7 +189,7 @@ function Main() {
         {/*/////////////////////////////////////////////////////////////// CAROUSEL HAIRCUTS (<MD) /////////////////////////////////////////////*/}
         <div
           id="carouselHaircutsmd"
-          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3"
+          className="carousel slide w-100 mx-auto mt-5 d-block d-md-none mb-3 d-flex align-items-center"
           data-bs-ride="carousel"
           style={{ height: 500 }}
         >
@@ -305,7 +305,6 @@ function Main() {
           </div>
         </div>
         <br className="d-none d-sm-block d-md-none" />
-        <br className="d-block d-md-none" />
         <br className="d-block d-md-none" />
         {/*/////////////////////////////////////////////////////////////// LOUNGE /////////////////////////////////////////////*/}
         <div

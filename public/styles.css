@@ -84,6 +84,14 @@ nav {
 .dropdown-item {
   white-space: nowrap;
 }
+
+.dropdown {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.dropdown button {
+  margin-top: 8px;
+}
 .hairBeardSvg {
   margin-top: 80px;
   max-width: 300px;
