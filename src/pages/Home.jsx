@@ -51,7 +51,7 @@ function Home() {
             where{" "}
             <span className="highlightedTextBlue">
               tradition meets modernity
-            </span>{" "}
+            </span>
             . Step into our welcoming space and experience the artistry of
             classic barbering fused with contemporary techniques. Our skilled
             barbers are dedicated to crafting tailored cuts, precise beard
