@@ -14,7 +14,7 @@ function Footer() {
             <div className="logoContainerFooter d-flex flex-row justify-content-center align-content-center me-0 me-md-2">
               <img
                 src="./Assets/Logo/cutzNtrimzLogo.png"
-                className="logoContainerFooter rounded"
+                className="logoContainerFooter rounded d-none d-sm-block"
                 style={{ border: "solid 2px #383233" }}
                 alt="logo"
               />
