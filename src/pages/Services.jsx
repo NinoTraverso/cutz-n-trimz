@@ -72,244 +72,246 @@ function Services() {
         >
           <img src="./Assets/ImagesAndIcons/border.svg" alt="topBorder" />
         </div>
-
-        <div
-          id="servicesList"
-          className="d-flex flex-column flex-md-row justify-content-around align-items-center flex-wrap"
-        >
+        <div className="d-flex justify-content-around">
           <div
-            id="hairServices"
-            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
+            id="servicesList"
+            className="d-flex flex-column flex-md-row justify-content-around align-items-center flex-wrap "
           >
-            <img
-              src="/Assets/ImagesAndIcons/hair.png"
-              alt="hairIcon"
-              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
-            />
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Classic Cut</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;30 mins&#41;</h5>
+            <div
+              id="hairServices"
+              className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3 pb-4"
+            >
+              <img
+                src="/Assets/ImagesAndIcons/hair.png"
+                alt="hairIcon"
+                className="d-flex justify-content-center align-self-center m-5 p-2 rounded-circle"
+              />
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Classic Cut</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;30 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;20
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;20
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Our Classic Cut combines traditional techniques with
+                  personalized attention to create a versatile and refined
+                  haircut that suits your preferences.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Our Classic Cut combines traditional techniques with
-                personalized attention to create a versatile and refined haircut
-                that suits your preferences.
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Premium Cut</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;40 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Premium Cut</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;40 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;24
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;24
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Featuring precision styling and personalized touches for a
+                  sophisticated and modern look that sets you apart
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Featuring precision styling and personalized touches for a
-                sophisticated and modern look that sets you apart
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Deluxe Cut</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;55 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Deluxe Cut</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;55 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;32
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;32
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Enjoy a customized consultation and meticulous attention to
+                  detail, resulting in a polished and upscale haircut that
+                  leaves you feeling confident and refreshed.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a customized consultation and meticulous attention to
-                detail, resulting in a polished and upscale haircut that leaves
-                you feeling confident and refreshed.
-              </h5>
             </div>
-          </div>
-          <div
-            id="beardServices"
-            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
-          >
-            <img
-              src="/Assets/ImagesAndIcons/beard.png"
-              alt="hairIcon"
-              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
-            />
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Beard Trim</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;20 mins&#41;</h5>
+            <div
+              id="beardServices"
+              className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3 pb-4"
+            >
+              <img
+                src="/Assets/ImagesAndIcons/beard.png"
+                alt="hairIcon"
+                className="d-flex justify-content-center align-self-center m-5 p-2 rounded-circle"
+              />
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Beard Trim</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;20 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;14
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;14
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Our expert barbers will shape and sculpt your beard to
+                  perfection, ensuring a clean and polished appearance that
+                  complements your overall look.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Our expert barbers will shape and sculpt your beard to
-                perfection, ensuring a clean and polished appearance that
-                complements your overall look.
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Hot Towel Shave</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;25 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Hot Towel Shave</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;25 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;18
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;18
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Relax as we use hot towels and premium products to provide you
+                  with a close and comfortable shave, leaving your skin smooth
+                  and rejuvenated.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Relax as we use hot towels and premium products to provide you
-                with a close and comfortable shave, leaving your skin smooth and
-                rejuvenated.
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Deluxe Trim</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Deluxe Trim</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;35 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;22
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;22
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Precision trimming and conditioning, resulting in a
+                  well-maintained and distinguished beard that enhances your
+                  appearance.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Precision trimming and conditioning, resulting in a
-                well-maintained and distinguished beard that enhances your
-                appearance.
-              </h5>
             </div>
-          </div>
-          <div
-            id="hairBeardServices"
-            className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3"
-          >
-            <img
-              src="/Assets/ImagesAndIcons/beardHair.png"
-              alt="hairIcon"
-              className="d-flex justify-content-center align-self-center m-5 px-3 rounded-circle"
-            />
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Classic Cut & Trim</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;50 mins&#41;</h5>
+            <div
+              id="hairBeardServices"
+              className="d-flex flex-column justify-content-center align-self-center rounded mt-5 mx-3 pt-2 pb-5"
+            >
+              <img
+                src="/Assets/ImagesAndIcons/beardHair.png"
+                alt="hairIcon"
+                className="d-flex justify-content-center align-self-center m-5 p-2 rounded-circle"
+              />
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Classic Groom</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;50 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;28
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;28
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Enjoy a personalized haircut and beard grooming session that
+                  accentuates your features and leaves you looking sharp and
+                  well-groomed.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Enjoy a personalized haircut and beard grooming session that
-                accentuates your features and leaves you looking sharp and
-                well-groomed.
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Luxury Cut & Trim</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;65 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Luxury Groom</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;65 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;36
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;36
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Experience expert styling techniques and premium products for
+                  a sophisticated and refined look that reflects your unique
+                  style.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Experience expert styling techniques and premium products for a
-                sophisticated and refined look that reflects your unique style.
-              </h5>
-            </div>
-            <div className="d-flex justify-content-center mx-3">
-              <hr className="w-75" />
-            </div>
-            <div className="my-2">
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex flex-row align-items-center ms-2">
-                  <h2>
-                    <span className="highlightedText">Deluxe Package</span>
-                  </h2>
-                  <h5 className="ms-3 text-dark">&#40;80 mins&#41;</h5>
+              <div className="d-flex justify-content-center mx-3">
+                <hr className="w-75" />
+              </div>
+              <div className="my-2">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex flex-row align-items-center ms-2">
+                    <h2>
+                      <span className="highlightedText">Deluxe Groom</span>
+                    </h2>
+                    <h5 className="ms-3 text-dark">&#40;80 mins&#41;</h5>
+                  </div>
+                  <h4
+                    className="me-3 highlightedText"
+                    style={{ color: "#d69a85" }}
+                  >
+                    &#36;44
+                  </h4>
                 </div>
-                <h4
-                  className="me-3 highlightedText"
-                  style={{ color: "#d69a85" }}
-                >
-                  &#36;44
-                </h4>
+                <h5 className="ms-2 me-3 text-white-50">
+                  Comprehensive haircut and beard grooming session with
+                  pampering extras and personalized attention for a confident
+                  appearance.
+                </h5>
               </div>
-              <h5 className="ms-2 me-3 text-white-50">
-                Receive a comprehensive haircut and beard grooming session,
-                complete with pampering extras and personalized attention, for a
-                polished and confident appearance.
-              </h5>
             </div>
           </div>
         </div>

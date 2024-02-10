@@ -295,6 +295,15 @@ footer * {
   display: none;
 }
 
+@media screen and (max-width: 400px) {
+  #hairServices,
+  #beardServices,
+  #hairBeardServices {
+    width: 100%;
+    max-width: 310px;
+  }
+}
+
 /*--------------------- HAIR SERVICES -----------------------*/
 #hairServices {
   opacity: 0;
@@ -326,8 +335,10 @@ footer * {
 
 #hairServices img {
   background-color: #e8e4c5;
-  width: 120px;
-  height: 120px;
+  width: auto;
+  height: 100%;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 /*--------------------- BEARD SERVICES -----------------------*/
@@ -361,8 +372,10 @@ footer * {
 
 #beardServices img {
   background-color: #e8e4c5;
-  width: 120px;
-  height: 120px;
+  width: auto;
+  height: 100%;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 /*--------------------- HAIR & BEARD SERVICES -----------------------*/
@@ -396,8 +409,10 @@ footer * {
 
 #hairBeardServices img {
   background-color: #e8e4c5;
-  width: 120px;
-  height: 120px;
+  width: auto;
+  height: 100%;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 /*-----------------------------------------PRODUCTS---------------------------------------------*/
