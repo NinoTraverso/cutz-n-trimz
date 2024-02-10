@@ -169,7 +169,7 @@ function Navbar() {
               <h4>{getPageName("About")}</h4>
             </Link>
 
-            <div className="dropdown mt-4 pt-3">
+            <div className="dropdown mt-4 pt-3 dropDownBig">
               <button
                 className="btn dropdown-toggle"
                 type="button"
@@ -247,36 +247,36 @@ function Navbar() {
             <div className="d-flex mt-5 pt-3 pe-5 align-items-center">
               <Link
                 to={getHomeLink()}
-                className="text-decoration-none mt-5 mx-3"
+                className="text-decoration-none mt-5 mx-2"
                 style={{ color: "#383233" }}
               >
-                <h4>{getPageName("Home")}</h4>
+                <h5>{getPageName("Home")}</h5>
               </Link>
 
               <Link
                 to={getServiceLink()}
-                className="text-decoration-none mt-5 mx-3"
+                className="text-decoration-none mt-5 mx-2"
                 style={{ color: "#383233" }}
               >
-                <h4>{getPageName("Services")}</h4>
+                <h5>{getPageName("Services")}</h5>
               </Link>
 
               <Link
                 to={getProductLink()}
-                className="text-decoration-none mt-5 mx-3"
+                className="text-decoration-none mt-5 mx-2"
                 style={{ color: "#383233" }}
               >
-                <h4>{getPageName("Products")}</h4>
+                <h5>{getPageName("Products")}</h5>
               </Link>
 
               <Link
                 to={getAboutLink()}
-                className="text-decoration-none mt-5 mx-3"
+                className="text-decoration-none mt-5 mx-2"
                 style={{ color: "#383233" }}
               >
-                <h4>{getPageName("About")}</h4>
+                <h5>{getPageName("About")}</h5>
               </Link>
-              <div className="dropdown mt-4 pt-3">
+              <div className="col-12 dropdown mt-4 pt-3 dropDownSmall">
                 <button
                   className="btn dropdown-toggle"
                   type="button"
@@ -297,7 +297,7 @@ function Navbar() {
                         to="/Home"
                         onClick={() => handleLanguageChange("EN")}
                       >
-                        EN
+                        <p>EN</p>
                       </Link>
                     </li>
                   )}
@@ -308,7 +308,7 @@ function Navbar() {
                         to="/HomeIS"
                         onClick={() => handleLanguageChange("IS")}
                       >
-                        IS
+                        <p>IS</p>
                       </Link>
                     </li>
                   )}
@@ -319,7 +319,7 @@ function Navbar() {
                         to="/HomePL"
                         onClick={() => handleLanguageChange("PL")}
                       >
-                        PL
+                        <p>PL</p>
                       </Link>
                     </li>
                   )}

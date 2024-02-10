@@ -89,9 +89,17 @@ nav {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.dropdown button {
+/* ALIGN VERTICALLY THE BIG DROPDOWN MENU FOR LANGUAGE CHANGE*/
+.dropDownBig button {
   margin-top: 8px;
 }
+
+/* ALIGN VERTICALLY & SHRINKS FONT SIZE FOR THE SMALL DROPDOWN MENU FOR LANGUAGE CHANGE*/
+.dropDownSmall button {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
 .hairBeardSvg {
   margin-top: 80px;
   max-width: 300px;
