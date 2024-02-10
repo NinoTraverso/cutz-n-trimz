@@ -155,7 +155,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <h6 className="pb-0 mb-0 mt-5 ms-1 d-flex flex-row align-items-center justify-content-center">
+        <h6 className="copyrightText pb-0 mb-0 mt-5 ms-1 d-flex flex-row align-items-center justify-content-center">
           Copyright © {currentYear} - cutzNtrimz - All Rights Reserved
         </h6>
       </footer>
