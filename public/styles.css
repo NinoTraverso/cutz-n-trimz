@@ -10,6 +10,8 @@ font-family: "Open Sans", sans-serif;
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 /*
 font-family: "Yeseva One", serif;
 font-family: "Josefin Sans", sans-serif;
@@ -63,7 +65,7 @@ body * {
 }
 
 nav {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   height: 12vh;
   width: 100%;
   border-bottom: 12px double #3c9c9c;
@@ -71,7 +73,7 @@ nav {
 
 @media screen and (max-width: 400px) {
   nav * h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
@@ -175,7 +177,7 @@ nav {
 /* ------------------------------------------------------------- HOME/MAIN PAGE -----------------------------------------*/
 
 .highlightedTextBlue {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   color: #3c9c9c;
   font-size: 26px;
 }
@@ -187,7 +189,7 @@ nav {
 }
 
 .highlightedTextPink {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   color: #d69a85;
   font-size: 26px;
 }
@@ -199,23 +201,23 @@ nav {
 }
 
 .highlightedText {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
 }
 
 .highlightedTextLargeBlue {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   color: #3c9c9c;
   font-size: 100px;
 }
 
 .highlightedTextLargePink {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   color: #d69a85;
   font-size: 100px;
 }
 
 .highlightedTextLarge {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   font-size: 100px;
 }
 
@@ -281,7 +283,7 @@ footer * {
 }
 
 .companyName {
-  font-family: "Yeseva One", serif;
+  font-family: "Lobster Two", sans-serif;
   color: rgb(255, 255, 255);
   border-bottom: 4px solid rgb(255, 255, 255);
 }
