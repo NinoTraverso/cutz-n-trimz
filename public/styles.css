@@ -6,13 +6,13 @@ font-family: "Lobster Two", sans-serif;
 font-family: "Open Sans", sans-serif;
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 /*
+font-family: "Yeseva One", serif;
 font-family: "Josefin Sans", sans-serif;
-font-family: "Cardo", serif;
 */
 
 /*
@@ -63,7 +63,7 @@ body * {
 }
 
 nav {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   height: 12vh;
   width: 100%;
   border-bottom: 12px double #3c9c9c;
@@ -71,8 +71,12 @@ nav {
 
 @media screen and (max-width: 400px) {
   nav * h5 {
-    font-size: 15px;
+    font-size: 14px;
   }
+}
+
+.infoNavbar {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .dropdown-toggle:focus,
@@ -99,21 +103,32 @@ nav {
   margin-top: 4px;
   background-color: #3c9c9c;
   color: white;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 /* ALIGN VERTICALLY & SHRINKS FONT SIZE FOR THE SMALL DROPDOWN MENU FOR LANGUAGE CHANGE*/
 .dropDownSmall button {
   font-size: 16px;
-  margin-top: 4px;
   background-color: #3c9c9c;
   color: white;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 @media screen and (max-width: 400px) {
   .dropDownSmall button {
-    font-size: 12px;
+    font-size: 10px;
     background-color: #3c9c9c;
     color: white;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 }
 
@@ -160,7 +175,7 @@ nav {
 /* ------------------------------------------------------------- HOME/MAIN PAGE -----------------------------------------*/
 
 .highlightedTextBlue {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   color: #3c9c9c;
   font-size: 26px;
 }
@@ -172,7 +187,7 @@ nav {
 }
 
 .highlightedTextPink {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   color: #d69a85;
   font-size: 26px;
 }
@@ -184,23 +199,23 @@ nav {
 }
 
 .highlightedText {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
 }
 
 .highlightedTextLargeBlue {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   color: #3c9c9c;
   font-size: 100px;
 }
 
 .highlightedTextLargePink {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   color: #d69a85;
   font-size: 100px;
 }
 
 .highlightedTextLarge {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   font-size: 100px;
 }
 
@@ -266,7 +281,7 @@ footer * {
 }
 
 .companyName {
-  font-family: "Exo", sans-serif;
+  font-family: "Yeseva One", serif;
   color: rgb(255, 255, 255);
   border-bottom: 4px solid rgb(255, 255, 255);
 }

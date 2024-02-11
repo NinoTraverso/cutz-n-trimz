@@ -136,7 +136,7 @@ function Navbar() {
               alt="logo"
             />
           </div>
-          <div className="d-flex justify-content-center align-items-center me-5">
+          <div className="d-flex justify-content-center align-items-center me-5 mb-3">
             <Link
               to={getHomeLink()}
               className="text-decoration-none mt-5 ms-5 me-3"
@@ -215,7 +215,7 @@ function Navbar() {
                 )}
               </ul>
             </div>
-            <div className="d-none d-xl-block d-flex align-items-center mt-5 pt-1 ms-4 ps-5">
+            <div className="infoNavbar d-none d-xl-block d-flex align-items-center mt-5 pt-1 ms-4 ps-5">
               <h5
                 className="ms-xxl-5 ps-xxl-5 mx-2"
                 style={{ whiteSpace: "nowrap" }}
@@ -223,10 +223,10 @@ function Navbar() {
                 +1 234 567 8910
               </h5>
             </div>
-            <div className="d-none d-xl-block d-flex align-items-center mt-5 pt-1">
+            <div className="infoNavbar d-none d-xl-block d-flex align-items-center mt-5 pt-1">
               <h5 style={{ whiteSpace: "nowrap" }}>|</h5>
             </div>
-            <div className="d-none d-xl-block d-flex align-items-center mt-5 pt-1">
+            <div className="infoNavbar d-none d-xl-block d-flex align-items-center mt-5 pt-1">
               <h5 className="mx-2" style={{ whiteSpace: "nowrap" }}>
                 info@cutzntrimz.com
               </h5>
