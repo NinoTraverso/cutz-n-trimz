@@ -297,23 +297,6 @@ footer * {
   height: 240px;
 }
 
-/*------------------------------------------------------- SERVICES -----------------------------------------------*/
-
-#servicesList {
-  background-image: url(./Assets/Shop/beardTrim.png);
-  background-size: 100% auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #000000;
-}
-
-@media (max-width: 1199px) {
-  #servicesList {
-    background-image: none;
-    color: #000000;
-  }
-}
-
 /*---------------------------------------------------- SERVICES CONTAINER --------------------------------------------------*/
 #topBorder {
   width: 100%;

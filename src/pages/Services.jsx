@@ -96,7 +96,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;20
                   </h4>
@@ -120,7 +120,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;24
                   </h4>
@@ -143,7 +143,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;32
                   </h4>
@@ -174,7 +174,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;14
                   </h4>
@@ -198,7 +198,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;18
                   </h4>
@@ -222,7 +222,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;22
                   </h4>
@@ -253,7 +253,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;28
                   </h4>
@@ -277,7 +277,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;36
                   </h4>
@@ -301,7 +301,7 @@ function Services() {
                   </div>
                   <h4
                     className="me-3 highlightedText"
-                    style={{ color: "#d69a85" }}
+                    style={{ color: "#ffffff" }}
                   >
                     &#36;44
                   </h4>
