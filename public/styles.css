@@ -221,10 +221,24 @@ nav {
   font-size: 100px;
 }
 
+@media screen and (max-width: 400px) {
+  .highlightedTextLarge,
+  .highlightedTextLargePink,
+  .highlightedTextLargeBlue {
+    font-size: 80px;
+  }
+}
+
 #mainHomeImageIntro {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+@media screen and (max-width: 400px) {
+  #mainHomeImageIntro {
+    height: 60vh;
+  }
 }
 
 #mainHomeImageIntro img {
@@ -477,6 +491,26 @@ footer * {
 #barberImageContainer {
   width: 400px;
   height: 600px;
+}
+
+@media screen and (max-width: 400px) {
+  #barberImageContainer {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #barberImageContainer img {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #barberImageContainer img {
