@@ -458,6 +458,14 @@ footer * {
   background-color: #d69a85;
   color: white;
   border: none;
+  width: 24rem;
+}
+
+@media screen and (max-width: 400px) {
+  .productCard {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 .cardPrice {
