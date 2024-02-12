@@ -4,6 +4,10 @@
 
 <p align="left">This project is a comprehensive website designed for a barber's shop, featuring essential pages such as Home, Services, Products, and About. Additionally, the website incorporates multilingual support, with pages translated into three different languages to cater to a diverse audience.</p>
 
+<div align="center">
+  <img src="./public/Assets/ImagesAndIcons/cutzNtrimzHover.jpg" height="400" alt="portfolioImage">
+</div>
+
 ###
 
 <h2 align="left">About the project</h2>
